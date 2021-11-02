@@ -1,0 +1,34 @@
+---
+canvas: "http://6d4ec759-464e-4453-849b-1e5d3def7f13"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ancient of Days\n\u201cThe Ancient of Days setting\na Compass to the Earth\u201d, boekomslag door William Blake, 1794 voor \u201cEurope a Prophecy\u201d (editie D)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-02T10:18:56.020Z",
+            "modified": "2021-11-02T10:19:04.195Z"
+        }
+    ],
+    "target": {
+        "source": "http://6d4ec759-464e-4453-849b-1e5d3def7f13",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:541.6617431640625,80.98321533203125,168.33734130859375,280.657958984375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/55f25840-5e8d-4829-914a-1672401da638",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ac10e512-19a7-43f6-85fc-2efd27907856.json"
+}
