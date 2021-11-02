@@ -1,0 +1,33 @@
+---
+canvas: "http://6d4ec759-464e-4453-849b-1e5d3def7f13"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Ignudi\nfresco Michelangelo, 1508-12, Sixtijnse Kapel, plafond, Rome",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-02T10:16:57.641Z"
+        }
+    ],
+    "target": {
+        "source": "http://6d4ec759-464e-4453-849b-1e5d3def7f13",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:214.8639373779297,91.63689422607422,112.51646423339844,170.60254669189453"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/55f25840-5e8d-4829-914a-1672401da638",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3faf17e8-14a2-4cea-9d6f-395407ff3b7b.json"
+}
