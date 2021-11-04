@@ -1,0 +1,33 @@
+---
+canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
+order: 38
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "30",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-04T14:09:06.376Z",
+            "modified": "2021-11-04T14:09:06.396Z"
+        }
+    ],
+    "target": {
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2924.533447265625,6458.74755859375 3900.4189453125,6467.63525390625 3896.807373046875,6296.2880859375 4005.884765625,6290.72998046875 4018.158203125,4849.30419921875 3855.021484375,4820.10205078125 3835.327880859375,4944.66943359375 2935.14208984375,4957.19677734375 2936.355224609375,4970.11865234375 2935.734619140625,4966.45068359375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9fed51ab-7bae-4030-8f10-dd8b3c5446ec.json"
+}
