@@ -11,8 +11,8 @@ order: 73
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2021-11-09T08:20:49.202Z",
-            "purpose": "commenting",
+            "modified": "2021-11-09T09:56:22.390Z",
+            "purpose": "identifying",
             "type": "TextualBody",
             "value": "101"
         }
@@ -23,7 +23,7 @@ order: 73
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1735.803955078125,23584.4921875,473.97314453125,312.07421875"
+            "value": "xywh=pixel:1694.2081298828125,23584.4921875,515.5689697265625,310.650390625"
         },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
