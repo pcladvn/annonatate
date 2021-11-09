@@ -8,13 +8,13 @@ order: 98
         {
             "type": "TextualBody",
             "value": "12\nJudas\nprentbriefkaart Oberammergau Passionsspiele, 1922",
-            "purpose": "commenting",
+            "purpose": "identifying",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
             "created": "2021-11-09T07:42:45.535Z",
-            "modified": "2021-11-09T07:42:46.992Z"
+            "modified": "2021-11-09T08:25:17.708Z"
         }
     ],
     "target": {
