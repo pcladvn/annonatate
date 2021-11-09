@@ -3,31 +3,31 @@ canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
 order: 38
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "30",
-            "purpose": "commenting",
+            "created": "2021-11-04T14:09:06.376Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-04T14:09:06.376Z",
-            "modified": "2021-11-04T14:09:06.396Z"
+            "modified": "2021-11-04T14:09:06.396Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "30"
         }
     ],
+    "id": "9fed51ab-7bae-4030-8f10-dd8b3c5446ec.json",
     "target": {
         "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2924.5,6458.7 3900.4,6467.6 3896.8,6296.3 4005.9,6290.7 4019.2,4822 3855,4820.1 3835.3,4944.7 2935.1,4957.2 2936.4,4970.1 2935.7,4966.5\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2924.5,6458.7 3900.4,6467.6 3896.8,6296.3 4005.9,6290.7 4019.2,4822 3821.8,4818.3 3821.8,4950.7 2935.1,4957.2 2936.4,4970.1 2935.7,4966.5\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9fed51ab-7bae-4030-8f10-dd8b3c5446ec.json"
+    "type": "Annotation"
 }
