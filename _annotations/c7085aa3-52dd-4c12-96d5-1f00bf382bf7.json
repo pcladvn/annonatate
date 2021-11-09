@@ -1,0 +1,32 @@
+---
+canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
+order: 96
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "8",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-09T07:35:21.736Z"
+        }
+    ],
+    "target": {
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4967.19921875,22475.13671875 4954.6884765625,21241.109375 4590.44091796875,21252.98828125 4577.8037109375,22477.7890625 4569.673828125,22472.482421875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c7085aa3-52dd-4c12-96d5-1f00bf382bf7.json"
+}
