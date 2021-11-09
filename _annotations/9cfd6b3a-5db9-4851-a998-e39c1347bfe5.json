@@ -8,13 +8,13 @@ order: 97
         {
             "type": "TextualBody",
             "value": "11",
-            "purpose": "commenting",
+            "purpose": "identifying",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
             "created": "2021-11-09T07:42:32.248Z",
-            "modified": "2021-11-09T07:42:32.358Z"
+            "modified": "2021-11-09T08:25:09.326Z"
         }
     ],
     "target": {
