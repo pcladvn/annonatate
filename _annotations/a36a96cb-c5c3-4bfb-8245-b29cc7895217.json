@@ -1,0 +1,34 @@
+---
+canvas: "http://55f73bd7-5565-4d3f-a015-b7f1551ad1d0"
+order: 14
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "222",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-09T15:53:30.992Z",
+            "modified": "2021-11-09T15:53:31.270Z"
+        }
+    ],
+    "target": {
+        "source": "http://55f73bd7-5565-4d3f-a015-b7f1551ad1d0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1797.9595947265625,3219.765625,581.1468505859375,644.556396484375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a36a96cb-c5c3-4bfb-8245-b29cc7895217.json"
+}
