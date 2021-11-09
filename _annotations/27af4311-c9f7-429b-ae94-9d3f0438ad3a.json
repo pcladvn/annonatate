@@ -8,13 +8,13 @@ order: 99
         {
             "type": "TextualBody",
             "value": "20\n\u201c\u00abVoor Vlanderen [g]anssch ... mein pro / \u00abgramm is : spreeken altijd in vlamsch... ca-\u201d\nprentbriefkaart, fragment",
-            "purpose": "commenting",
+            "purpose": "identifying",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
             "created": "2021-11-09T07:45:56.727Z",
-            "modified": "2021-11-09T07:45:58.483Z"
+            "modified": "2021-11-09T08:26:50.461Z"
         }
     ],
     "target": {
