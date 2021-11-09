@@ -19,16 +19,16 @@ order: 66
     ],
     "id": "37ad4c70-7c04-4ac9-a466-8b4fbe6f428c.json",
     "target": {
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=pixel:1257.1947021484375,23577.9921875,469.848388671875,546.994140625"
+        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
             "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=pixel:1257.1947021484375,23577.9921875,481.8189697265625,534.271484375"
-        },
-        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
+        }
     },
     "type": "Annotation"
 }
