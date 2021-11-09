@@ -1,0 +1,32 @@
+---
+canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
+order: 107
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "51\n\u201c42114. Folkestone: The Warren, showing halt\u201d\nprentbriefkaart, [1916]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-11-09T11:13:37.816Z"
+        }
+    ],
+    "target": {
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3301.48388671875,10043.310546875 2106.720947265625,10056.1044921875 2099.842041015625,9664.57421875 1566.713134765625,9678.431640625 1573.7913818359375,9094.02734375 3046.600341796875,9084.7890625 3059.12841796875,8942.259765625 3280.415283203125,8945.4169921875 3273.1044921875,8943.6552734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "015be773-270c-4f62-8b64-48f640e4a248.json"
+}
