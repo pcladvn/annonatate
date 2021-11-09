@@ -7,14 +7,14 @@ order: 104
     "body": [
         {
             "type": "TextualBody",
-            "value": "60",
+            "value": "60\n[overplakte afbeelding]",
             "purpose": "identifying",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
             "created": "2021-11-09T09:25:03.422Z",
-            "modified": "2021-11-09T09:25:06.579Z"
+            "modified": "2021-11-09T09:26:21.938Z"
         }
     ],
     "target": {
