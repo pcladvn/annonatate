@@ -3,31 +3,31 @@ canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
 order: 97
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "105",
-            "purpose": "commenting",
+            "created": "2021-11-09T07:35:47.647Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T07:35:47.647Z",
-            "modified": "2021-11-09T08:21:28.821Z"
+            "modified": "2021-11-09T09:57:11.843Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "105\nSan Giovannino\nschilderij Raffaello Sanzio (Rafael), c. 1518"
         }
     ],
+    "id": "7ef1c7e1-50a4-4ed7-8f5f-d90a3d106e96.json",
     "target": {
-        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3799.64501953125,26442.916015625 1414.1982421875,26339.458984375 1389.176513671875,24157.681640625 1765.386962890625,24160.16796875 1769.1781005859375,23924.736328125 3820.87548828125,23954.6015625 3814.8095703125,23950.263671875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
-            "type": "Manifest"
-        }
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7ef1c7e1-50a4-4ed7-8f5f-d90a3d106e96.json"
+    "type": "Annotation"
 }
