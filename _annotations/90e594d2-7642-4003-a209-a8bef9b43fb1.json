@@ -3,31 +3,31 @@ canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
 order: 39
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "30",
-            "purpose": "commenting",
+            "created": "2021-11-04T14:09:48.601Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-04T14:09:48.601Z",
-            "modified": "2021-11-04T14:09:48.621Z"
+            "modified": "2021-11-04T14:09:48.621Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "30"
         }
     ],
+    "id": "90e594d2-7642-4003-a209-a8bef9b43fb1.json",
     "target": {
         "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2184.7,6430.4 2901,6421.2 2911.5,6431.6 2909.2,6466.7 3875.7,6488 3891.5,8054.4 3611.3,8061.5 3610.8,7634.3 3332.4,7626.7 3326.9,8077.7 3011.6,8070.1 3010.8,7608.4 2149.9,7602.2 2144.9,7598.8\"></polygon></svg>"
+            "value": "<svg><polygon points=\"2184.7,6430.4 2901,6421.2 2911.5,6431.6 2909.2,6466.7 3906.1,6491.6 3906.1,8074.6 3605.1,8074.6 3610.8,7634.3 3332.4,7626.7 3326.9,8077.7 3011.6,8070.1 3010.8,7608.4 2149.9,7602.2 2144.9,7598.8\"></polygon></svg>"
         },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "90e594d2-7642-4003-a209-a8bef9b43fb1.json"
+    "type": "Annotation"
 }
