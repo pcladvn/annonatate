@@ -3,31 +3,31 @@ canvas: "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
 order: 90
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "56",
-            "purpose": "commenting",
+            "created": "2021-11-09T07:32:41.332Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T07:32:41.332Z",
-            "modified": "2021-11-09T07:55:41.878Z"
+            "modified": "2021-11-09T09:23:44.978Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "56\nDe geboorte van Christus\nschilderij Matthias Gru\u0308newald, c.\n1510-15, Isenheimer Altar"
         }
     ],
+    "id": "927af635-5c6b-479a-83a0-5803f0e57700.json",
     "target": {
-        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8",
+        "dcterms:isPartOf": {
+            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4438.6,10055.1 4461.9,12013.5 4253,12018.8 4254.8,12117 1796.1,12097.6 1787.1,10654.8 2095.4,10655.8 2099.8,10065.4 3319.6,10057.5 3317.5,9775.1 3733.1,9782.6 3736.5,10075 3730.7,10053\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://jsonstorage.net/api/items/7c466654-c018-4b1e-a0be-1b6254d41495",
-            "type": "Manifest"
-        }
+        "source": "http://f1cfd7fd-702b-47ba-8358-d5a81c39c7e8"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "927af635-5c6b-479a-83a0-5803f0e57700.json"
+    "type": "Annotation"
 }
