@@ -11,10 +11,10 @@ order: 40
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2021-11-09T08:31:38.133Z",
+            "modified": "2021-11-09T11:29:49.140Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "42\nWieland de smid\nschilderij Moritz von Schwind, 83\n1850"
+            "value": "42\nWieland de smid\nschilderij Moritz von Schwind, 1850"
         }
     ],
     "id": "2155d6eb-2c2a-47b6-bc79-c9dbdd79cc56.json",
