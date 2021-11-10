@@ -22,7 +22,7 @@ order: 69
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1784.1170654296875,17000.25,884.5155029296875,642.009765625"
+            "value": "xywh=pixel:2086.747314453125,17000.25,525.331787109375,672.46875"
         },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
