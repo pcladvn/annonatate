@@ -1,0 +1,9 @@
+---
+canvas_id: "http://c5b1350f-ca49-421d-b110-6ecc83c8ba3f"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }
