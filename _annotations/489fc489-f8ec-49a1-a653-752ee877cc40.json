@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 29
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "29",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:22:06.780Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:22:06.780Z",
-            "modified": "2021-11-09T15:22:06.803Z"
+            "modified": "2021-11-09T15:22:06.803Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "29"
         }
     ],
+    "id": "489fc489-f8ec-49a1-a653-752ee877cc40.json",
     "target": {
         "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:965.7520141601562,5937.0322265625,159.12017822265625,123.50830078125"
+            "value": "xywh=pixel:961.6834716796875,5897.00537109375,137.272705078125,151.818359375"
         },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "489fc489-f8ec-49a1-a653-752ee877cc40.json"
+    "type": "Annotation"
 }
