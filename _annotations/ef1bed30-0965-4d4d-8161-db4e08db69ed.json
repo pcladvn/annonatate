@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 82
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "82",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:29:19.817Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:29:19.817Z",
-            "modified": "2021-11-09T15:29:19.857Z"
+            "modified": "2021-12-01T15:33:29.853Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "82\nDas Gastmahl des Plato, erste Fassung (Plato\u2019s Symposium) schilderij Anselm Feuerbach, 1869"
         }
     ],
+    "id": "ef1bed30-0965-4d4d-8161-db4e08db69ed.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:15.443498611450195,17846.412109375,3363.38169670105,1457.55078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:15.443498611450195,17846.412109375,3363.38169670105,1457.55078125"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ef1bed30-0965-4d4d-8161-db4e08db69ed.json"
+    "type": "Annotation"
 }
