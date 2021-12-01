@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 56
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "56",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:25:16.849Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:25:16.849Z",
-            "modified": "2021-11-09T15:25:16.886Z"
+            "modified": "2021-12-01T15:12:46.656Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "56\nDe geboorte van Christus\nschilderij Matthias Gru\u0308newald, c. 1510-15, Isenheimer Altar"
         }
     ],
+    "id": "f34f5e7d-aa97-48ae-908d-9e29f62be890.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1755.3934326171875,9723.94140625,2749.3912353515625,2375.7998046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1755.3934326171875,9723.94140625,2749.3912353515625,2375.7998046875"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f34f5e7d-aa97-48ae-908d-9e29f62be890.json"
+    "type": "Annotation"
 }
