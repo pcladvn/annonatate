@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "78",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:28:50.563Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:28:50.563Z",
-            "modified": "2021-11-09T15:28:50.591Z"
+            "modified": "2021-12-01T15:27:44.199Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "78\nAnnunciazione\nschilderij Fra Angelico, c. 1438-45, San Marco, cel 3, Firenze"
         }
     ],
+    "id": "d118c4e0-9ff3-4f40-b82b-8d37df9bfc65.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1057.45947265625,16120.1865234375,852.52734375,1708.7216796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1057.45947265625,16120.1865234375,852.52734375,1708.7216796875"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d118c4e0-9ff3-4f40-b82b-8d37df9bfc65.json"
+    "type": "Annotation"
 }
