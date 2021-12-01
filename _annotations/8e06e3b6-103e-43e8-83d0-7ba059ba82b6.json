@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 89
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "89",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:30:04.914Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:30:04.914Z",
-            "modified": "2021-11-09T15:30:04.953Z"
+            "modified": "2021-12-01T15:33:51.226Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "89\nBaruch Spinoza\nportret van de Opera Posthuma, c. 1680"
         }
     ],
+    "id": "8e06e3b6-103e-43e8-83d0-7ba059ba82b6.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1213.42822265625,20397.71875,645.9920654296875,703.263671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1213.42822265625,20397.71875,645.9920654296875,703.263671875"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8e06e3b6-103e-43e8-83d0-7ba059ba82b6.json"
+    "type": "Annotation"
 }
