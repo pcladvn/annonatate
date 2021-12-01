@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 71
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "71",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:27:39.586Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:27:39.586Z",
-            "modified": "2021-11-09T15:27:39.633Z"
+            "modified": "2021-12-01T15:18:29.726Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "71\nHet mystiek huwelijk van Sint-Catharina van Alexandrie\u0308 schilderij Bernardino Luini, c. 1520"
         }
     ],
+    "id": "fb05615a-a519-45ae-9d7e-eb96416c6ad7.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3378.262451171875,13045.7880859375,1623.479248046875,1787.0615234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3378.262451171875,13045.7880859375,1623.479248046875,1787.0615234375"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fb05615a-a519-45ae-9d7e-eb96416c6ad7.json"
+    "type": "Annotation"
 }
