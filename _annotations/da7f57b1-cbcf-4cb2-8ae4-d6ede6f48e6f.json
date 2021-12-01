@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 53
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "53",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:24:41.208Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:24:41.208Z",
-            "modified": "2021-11-09T15:24:41.287Z"
+            "modified": "2021-12-01T15:11:12.230Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "53\nLittle Red Riding Hood\nschilderij George Frederick Watts, 1890"
         }
     ],
+    "id": "da7f57b1-cbcf-4cb2-8ae4-d6ede6f48e6f.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3643.433349609375,8050.1435546875,1382.660400390625,1966.654296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3643.433349609375,8050.1435546875,1382.660400390625,1966.654296875"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "da7f57b1-cbcf-4cb2-8ae4-d6ede6f48e6f.json"
+    "type": "Annotation"
 }
