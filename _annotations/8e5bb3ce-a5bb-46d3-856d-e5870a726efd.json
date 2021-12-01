@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 97
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "97",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:31:11.667Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:31:11.667Z",
-            "modified": "2021-11-09T15:31:11.705Z"
+            "modified": "2021-12-01T15:34:53.325Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "97\nBeethoven\nbeeldhouwwerk Max Klinger, 1902"
         }
     ],
+    "id": "8e5bb3ce-a5bb-46d3-856d-e5870a726efd.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:48.172760009765625,21008.349609375,2223.2234802246094,2563.375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:48.172760009765625,21008.349609375,2223.2234802246094,2563.375"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8e5bb3ce-a5bb-46d3-856d-e5870a726efd.json"
+    "type": "Annotation"
 }
