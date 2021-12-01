@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "18",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:20:30.316Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:20:30.316Z",
-            "modified": "2021-11-09T15:20:30.349Z"
+            "modified": "2021-12-01T14:03:36.445Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "18\nZeus van Otricoli\nHellenistisch beeldhouwwerk of Romeinse kopie, 4de eeuw v.C. (?)"
         }
     ],
+    "id": "f5fe7cb4-2fa3-40ad-9834-c032f3b98975.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3641.943603515625,3104.32763671875,878.655517578125,1251.4736328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3641.943603515625,3104.32763671875,878.655517578125,1251.4736328125"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f5fe7cb4-2fa3-40ad-9834-c032f3b98975.json"
+    "type": "Annotation"
 }
