@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 105
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "105",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:32:26.185Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:32:26.185Z",
-            "modified": "2021-11-09T15:32:26.402Z"
+            "modified": "2021-12-01T15:35:38.701Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "105\nSan Giovannino\nschilderij Raffaello Sanzio (Rafael), c. 1518"
         }
     ],
+    "id": "8b86356f-055c-4505-8213-05257e293bbe.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1381.27490234375,23938.109375,2523.2197265625,2569.94140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1381.27490234375,23938.109375,2523.2197265625,2569.94140625"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8b86356f-055c-4505-8213-05257e293bbe.json"
+    "type": "Annotation"
 }
