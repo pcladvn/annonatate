@@ -3,31 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "5",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:19:00.610Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:19:00.610Z"
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "5\nPontius Pilatus\nprentbriefkaart Oberammergau Passionsspiele \u2013 serie 2, 1922",
+            "modified": "2021-12-01T13:59:36.859Z"
         }
     ],
+    "id": "dd468b3a-8c90-4b0d-ab73-5462e5c2c0bd.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:2030.8883056640625,32.74239730834961,650.0604248046875,1561.4053077697754"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:2030.8883056640625,32.74239730834961,650.0604248046875,1561.4053077697754"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dd468b3a-8c90-4b0d-ab73-5462e5c2c0bd.json"
+    "type": "Annotation"
 }
