@@ -3,32 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 80
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "80",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:29:00.791Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:29:00.791Z",
-            "modified": "2021-11-09T15:29:00.814Z"
+            "modified": "2021-12-01T15:28:21.329Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "80\nIgnudi"
         }
     ],
+    "id": "0d39c7e0-26c2-4a58-9a13-ac7d17d45f0f.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:2311.081787109375,17216.63671875,1053.132080078125,586.80078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:2311.081787109375,17216.63671875,1053.132080078125,586.80078125"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0d39c7e0-26c2-4a58-9a13-ac7d17d45f0f.json"
+    "type": "Annotation"
 }
