@@ -3,31 +3,42 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "2",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:18:42.566Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:18:42.566Z"
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "2"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Ignudi\nfresco Michelangelo, 1508-12, Sixtijnse Kapel, plafond, Rome",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2021-12-01T13:58:48.917Z",
+            "modified": "2021-12-01T13:58:55.571Z"
         }
     ],
+    "id": "bf476241-6cc6-4a32-8068-3836791e0823.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1092.3834228515625,45.777984619140625,960.5938720703125,1231.1895446777344"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1092.3834228515625,45.777984619140625,960.5938720703125,1231.1895446777344"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bf476241-6cc6-4a32-8068-3836791e0823.json"
+    "type": "Annotation"
 }
