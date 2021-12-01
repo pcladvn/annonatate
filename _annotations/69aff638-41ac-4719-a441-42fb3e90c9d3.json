@@ -3,31 +3,32 @@ canvas: "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "3",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:18:48.971Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:18:48.971Z"
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "3\nKoor (Cantoria) beeldhouwwerk Luca della Robbia, Kathedraal van Florence",
+            "modified": "2021-12-01T13:59:18.865Z"
         }
     ],
+    "id": "69aff638-41ac-4719-a441-42fb3e90c9d3.json",
     "target": {
-        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1061.1553955078125,930.5648193359375,534.6595458984375,679.454833984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1061.1553955078125,930.5648193359375,534.6595458984375,679.454833984375"
+        },
+        "source": "http://d00ba21a-788c-4fe8-9d72-eb5f043d8123"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "69aff638-41ac-4719-a441-42fb3e90c9d3.json"
+    "type": "Annotation"
 }
