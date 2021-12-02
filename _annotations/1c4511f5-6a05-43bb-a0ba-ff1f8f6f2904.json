@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 101
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "208",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:47:35.529Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:47:35.529Z",
-            "modified": "2021-11-09T15:47:35.816Z"
+            "modified": "2021-12-02T09:34:16.884Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "208\nMaria verschijnt aan Sint- Ildefonso\nschilderij Peter Paul Rubens (middenpaneel van triptiek van Sint-Ildefonso), 1630-32"
         }
     ],
+    "id": "1c4511f5-6a05-43bb-a0ba-ff1f8f6f2904.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3276.46337890625,23089.150390625,1623.62646484375,2557.189453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3276.46337890625,23089.150390625,1623.62646484375,2557.189453125"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1c4511f5-6a05-43bb-a0ba-ff1f8f6f2904.json"
+    "type": "Annotation"
 }
