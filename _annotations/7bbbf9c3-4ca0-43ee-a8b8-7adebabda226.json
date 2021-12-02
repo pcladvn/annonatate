@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 40
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "147",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:38:50.286Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:38:50.286Z",
-            "modified": "2021-11-09T15:38:50.605Z"
+            "modified": "2021-12-02T09:07:30.502Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "147\nFjodor Dostojevski\nhoutsnede Felix Edouard\nVallotton, 1895"
         }
     ],
+    "id": "7bbbf9c3-4ca0-43ee-a8b8-7adebabda226.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:2889.22607421875,8602.73046875,436.06103515625,763.9169921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:2889.22607421875,8602.73046875,436.06103515625,763.9169921875"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7bbbf9c3-4ca0-43ee-a8b8-7adebabda226.json"
+    "type": "Annotation"
 }
