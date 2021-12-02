@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 33
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "140",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:37:20.668Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:37:20.668Z",
-            "modified": "2021-11-09T15:37:21.019Z"
+            "modified": "2021-12-02T09:00:36.235Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "140\nReinhard Johannes Sorge\nfoto"
         }
     ],
+    "id": "21ec83d8-0d9a-40b6-bde3-8f455cbd98b6.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3994.92529296875,6510.1572265625,842.19921875,1159.83544921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3994.92529296875,6510.1572265625,842.19921875,1159.83544921875"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "21ec83d8-0d9a-40b6-bde3-8f455cbd98b6.json"
+    "type": "Annotation"
 }
