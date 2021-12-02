@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 24
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "131",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:36:20.710Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:36:20.710Z",
-            "modified": "2021-11-09T15:36:20.941Z"
+            "modified": "2021-12-02T08:53:15.540Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "131\nDe jonge stier\nschilderij Paulus Potter, c. 1647 \u2013fragment"
         }
     ],
+    "id": "704be3ed-0340-4397-86db-44894b5c8aa5.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1225.16650390625,6217.7353515625,460.94189453125,601.14111328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1225.16650390625,6217.7353515625,460.94189453125,601.14111328125"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "704be3ed-0340-4397-86db-44894b5c8aa5.json"
+    "type": "Annotation"
 }
