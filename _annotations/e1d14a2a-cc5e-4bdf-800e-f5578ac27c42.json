@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 23
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "130",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:36:14.604Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:36:14.604Z",
-            "modified": "2021-11-09T15:36:15.036Z"
+            "modified": "2021-12-02T08:52:56.770Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "130\nBergfu\u0308hrer\nschilderij Wilhelm Emil (Elk) Eber, [c. 1924] \u2013 prentbriefkaart "
         }
     ],
+    "id": "e1d14a2a-cc5e-4bdf-800e-f5578ac27c42.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:170.73118591308594,4864.53271484375,1058.3761138916016,1943.28955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:170.73118591308594,4864.53271484375,1058.3761138916016,1943.28955078125"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e1d14a2a-cc5e-4bdf-800e-f5578ac27c42.json"
+    "type": "Annotation"
 }
