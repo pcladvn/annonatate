@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 61
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "168",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:41:58.457Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:41:58.457Z",
-            "modified": "2021-11-09T15:41:58.751Z"
+            "modified": "2021-12-02T09:23:43.193Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "168\nStudy Of A Lion\nschilderij John Macallan Swan, 1910"
         }
     ],
+    "id": "f8101bf0-101c-408e-bb1c-4565f4a18e51.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1709.3353271484375,13141.8623046875,2527.2520751953125,1323.6474609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1709.3353271484375,13141.8623046875,2527.2520751953125,1323.6474609375"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f8101bf0-101c-408e-bb1c-4565f4a18e51.json"
+    "type": "Annotation"
 }
