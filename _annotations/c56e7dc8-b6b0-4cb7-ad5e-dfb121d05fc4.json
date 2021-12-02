@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 48
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "155",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:40:13.405Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:40:13.405Z",
-            "modified": "2021-11-09T15:40:13.751Z"
+            "modified": "2021-12-02T09:15:50.520Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "155\nZelfportret Albrecht Du\u0308rer\nschilderij Albrecht Du\u0308rer, 1498"
         }
     ],
+    "id": "c56e7dc8-b6b0-4cb7-ad5e-dfb121d05fc4.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3692.004150390625,8903.59765625,1128.028564453125,1491.740234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3692.004150390625,8903.59765625,1128.028564453125,1491.740234375"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c56e7dc8-b6b0-4cb7-ad5e-dfb121d05fc4.json"
+    "type": "Annotation"
 }
