@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 17
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "124",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:35:35.411Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:35:35.411Z",
-            "modified": "2021-11-09T15:35:35.755Z"
+            "modified": "2021-12-02T08:51:36.497Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "124\nL\u2019Amour au the\u0301a\u0302tre franc\u0327ais ou La Come\u0301die franc\u0327aise schilderij Antoine Watteau, 1714"
         }
     ],
+    "id": "00e6e1ea-871f-4cf8-bb70-86d982ed77a0.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:666.472412109375,3626.8828125,2077.310791015625,1527.90087890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:666.472412109375,3626.8828125,2077.310791015625,1527.90087890625"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "00e6e1ea-871f-4cf8-bb70-86d982ed77a0.json"
+    "type": "Annotation"
 }
