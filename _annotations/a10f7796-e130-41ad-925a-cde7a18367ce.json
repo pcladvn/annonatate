@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "111",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:34:00.509Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:34:00.509Z",
-            "modified": "2021-11-09T15:34:01.459Z"
+            "modified": "2021-12-02T08:35:49.204Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "111\nItaly Ritratto di Dante Firenze Affresco di Giotto Palazzo Pretorio"
         }
     ],
+    "id": "a10f7796-e130-41ad-925a-cde7a18367ce.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:195.64515686035156,1492.864501953125,807.0990447998047,1142.46923828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:195.64515686035156,1492.864501953125,807.0990447998047,1142.46923828125"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a10f7796-e130-41ad-925a-cde7a18367ce.json"
+    "type": "Annotation"
 }
