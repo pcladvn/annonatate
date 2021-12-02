@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 89
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "196",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:45:51.418Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:45:51.418Z",
-            "modified": "2021-11-09T15:45:51.632Z"
+            "modified": "2021-12-02T09:26:37.826Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "196\nIl Parco degli Acquedotti, Roma\n(met restanten van de Acquedotto Claudio) \u2013 prentbriefkaart, 1910"
         }
     ],
+    "id": "2f36bfee-5eb6-4020-aa12-4308cf470b03.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:3797.171630859375,19926.404296875,1121.406982421875,554.24609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:3797.171630859375,19926.404296875,1121.406982421875,554.24609375"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2f36bfee-5eb6-4020-aa12-4308cf470b03.json"
+    "type": "Annotation"
 }
