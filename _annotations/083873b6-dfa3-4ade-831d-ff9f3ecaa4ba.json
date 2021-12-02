@@ -3,32 +3,32 @@ canvas: "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
 order: 86
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "193",
-            "purpose": "commenting",
+            "created": "2021-11-09T15:45:30.363Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2021-11-09T15:45:30.363Z",
-            "modified": "2021-11-09T15:45:30.649Z"
+            "modified": "2021-12-02T09:25:53.846Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "193\nDes Knaben Wunderhorn\nschilderij Moritz von Schwind, c. 1848"
         }
     ],
+    "id": "083873b6-dfa3-4ade-831d-ff9f3ecaa4ba.json",
     "target": {
-        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=pixel:1260.3831787109375,18775.162109375,1060.9864501953125,1311.853515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=pixel:1260.3831787109375,18775.162109375,1060.9864501953125,1311.853515625"
+        },
+        "source": "http://5124c6f5-72c9-4a42-880c-231f9b37396a"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "083873b6-dfa3-4ade-831d-ff9f3ecaa4ba.json"
+    "type": "Annotation"
 }
