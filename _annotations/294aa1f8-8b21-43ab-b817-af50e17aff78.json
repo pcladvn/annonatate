@@ -20,7 +20,7 @@ order: 107
     "id": "294aa1f8-8b21-43ab-b817-af50e17aff78.json",
     "target": {
         "dcterms:isPartOf": {
-            "id": "pcladvn.github.io/manifest.json",
+            "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
         },
         "selector": {
