@@ -20,7 +20,7 @@ order: 42
     "id": "02e2c12b-1caa-4ad5-8d7b-f77c0555b68b.json",
     "target": {
         "dcterms:isPartOf": {
-            "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
+            "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
         },
         "selector": {

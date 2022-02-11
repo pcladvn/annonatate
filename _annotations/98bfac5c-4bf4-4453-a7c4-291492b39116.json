@@ -25,7 +25,7 @@ order: 82
             "value": "xywh=pixel:4100.5341796875,16924.34765625,405.6083984375,314.640625"
         },
         "dcterms:isPartOf": {
-            "id": "https://jsonstorage.net/api/items/0fed3144-5df1-4ff7-84a4-516c4cdc3a56",
+            "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
         }
     },
