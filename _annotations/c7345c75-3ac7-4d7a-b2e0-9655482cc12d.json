@@ -1,0 +1,35 @@
+---
+canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
+order: 33
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "683",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2022-04-01T08:01:44.243Z",
+            "modified": "2022-04-01T08:01:47.303Z"
+        }
+    ],
+    "target": {
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1176.972412109375,6662.314453125,1065.664306640625,1618.3154296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pcladvn.github.io/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c7345c75-3ac7-4d7a-b2e0-9655482cc12d.json",
+    "motivation": "commenting"
+}
