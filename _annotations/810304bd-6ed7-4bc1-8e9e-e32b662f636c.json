@@ -24,7 +24,7 @@ order: 29
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=938.7252807617188,5888.89111328125,194.11077880859375,180.35107421875"
+            "value": "xywh=944.5562133789062,5888.89111328125,164.96087646484375,166.13720703125"
         },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
