@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 74
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "282",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:38:47.874Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:38:47.874Z",
-            "modified": "2022-03-21T10:38:50.136Z"
+            "modified": "2022-03-21T10:38:50.136Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "282"
         }
     ],
+    "id": "9c2ab57c-3187-4a75-b475-521b79fe2925.json",
+    "motivation": "commenting",
     "target": {
         "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2082.234619140625,18441.64453125,227.969970703125,253.6875"
+            "value": "xywh=2082.234619140625,18412.556640625,230.1240234375,282.775390625"
         },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9c2ab57c-3187-4a75-b475-521b79fe2925.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
