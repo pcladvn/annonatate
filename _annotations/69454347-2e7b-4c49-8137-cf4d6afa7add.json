@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 49
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "156",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:37:10.937Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:37:10.937Z",
-            "modified": "2022-03-21T09:37:13.402Z"
+            "modified": "2022-04-14T13:05:25.104Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "156\nHenri\u00ebtte Roland Holst\ntekening Richard Roland Holst"
         }
     ],
+    "id": "69454347-2e7b-4c49-8137-cf4d6afa7add.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=167.87940979003906,10082.736328125,779.0173187255859,1099.25390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=167.87940979003906,10082.736328125,779.0173187255859,1099.25390625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "69454347-2e7b-4c49-8137-cf4d6afa7add.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
