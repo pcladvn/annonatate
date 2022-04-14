@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 43
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "150",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:26:21.182Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:26:21.182Z",
-            "modified": "2022-03-21T09:26:24.348Z"
+            "modified": "2022-04-14T13:04:05.928Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "150\nClaude Debussy\nnaar schilderij Jacques-Emile Blanche, 1902-1903"
         }
     ],
+    "id": "ba8d5e51-35f9-45bf-984d-fdcf93cae103.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4411.3974609375,8669.1259765625,184.8115234375,240.8388671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4411.3974609375,8669.1259765625,184.8115234375,240.8388671875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ba8d5e51-35f9-45bf-984d-fdcf93cae103.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
