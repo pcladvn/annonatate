@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "3",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:45:07.918Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:45:07.918Z",
-            "modified": "2022-03-21T08:45:10.414Z"
+            "modified": "2022-04-14T10:57:33.357Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "3\nKoor (Cantoria) beeldhouwwerk Luca della Robbia, Kathedraal van Florence"
         }
     ],
+    "id": "40e41d87-b1cd-44fc-860f-692c0ca3aa81.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1044.443115234375,939.4041137695312,543.668701171875,653.2938842773438"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1044.443115234375,939.4041137695312,543.668701171875,653.2938842773438"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "40e41d87-b1cd-44fc-860f-692c0ca3aa81.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
