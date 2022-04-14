@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 16
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "16",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:47:24.933Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:47:24.933Z",
-            "modified": "2022-03-21T08:47:28.432Z"
+            "modified": "2022-04-14T11:02:19.209Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "16\n\u201cBangor Menai Woods\u201d\nprentbriefkaart (C39787)"
         }
     ],
+    "id": "8187ccd4-001c-4905-9af1-d3ddcfa97db3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3573.669677734375,2052.37109375,1370.042236328125,1030.856201171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3573.669677734375,2052.37109375,1370.042236328125,1030.856201171875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8187ccd4-001c-4905-9af1-d3ddcfa97db3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
