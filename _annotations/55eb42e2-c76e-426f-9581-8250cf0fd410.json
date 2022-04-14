@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 52
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "52",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:53:54.323Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:53:54.323Z",
-            "modified": "2022-03-21T08:53:56.963Z"
+            "modified": "2022-04-14T11:29:24.834Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "52\nAlbrecht Rodenbach\nprentbriefkaart (?)"
         }
     ],
+    "id": "55eb42e2-c76e-426f-9581-8250cf0fd410.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3258.009765625,8879.076171875,406.9931640625,836.9072265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3258.009765625,8879.076171875,406.9931640625,836.9072265625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "55eb42e2-c76e-426f-9581-8250cf0fd410.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
