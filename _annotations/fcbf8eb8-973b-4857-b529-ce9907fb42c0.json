@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "185",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:31.482Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:31.482Z",
-            "modified": "2022-03-21T09:42:33.797Z"
+            "modified": "2022-04-14T13:12:53.932Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "185\nMadonna Magnificat\nschilderij Sandro Botticelli, 1480/81"
         }
     ],
+    "id": "fcbf8eb8-973b-4857-b529-ce9907fb42c0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1161.9285888671875,16888.6875,1638.8101806640625,1692.841796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1161.9285888671875,16888.6875,1638.8101806640625,1692.841796875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fcbf8eb8-973b-4857-b529-ce9907fb42c0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
