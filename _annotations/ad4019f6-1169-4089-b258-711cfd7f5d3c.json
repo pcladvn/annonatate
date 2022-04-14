@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 76
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "183",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:10.834Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:10.834Z",
-            "modified": "2022-03-21T09:42:14.895Z"
+            "modified": "2022-04-14T13:12:23.023Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "183\nPaysage avec la fuite en Egypte\nschilderij Claude Lorrain, 1647"
         }
     ],
+    "id": "ad4019f6-1169-4089-b258-711cfd7f5d3c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2828.353515625,15709.3115234375,2043.0517578125,1655.1396484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2828.353515625,15709.3115234375,2043.0517578125,1655.1396484375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ad4019f6-1169-4089-b258-711cfd7f5d3c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
