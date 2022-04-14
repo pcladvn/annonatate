@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 51
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "158",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:37:26.802Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:37:26.802Z",
-            "modified": "2022-03-21T09:37:29.166Z"
+            "modified": "2022-04-14T13:06:46.540Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "158\nL\u2019Enfance de Sainte Genevie\u0300ve\nschilderij Pierre Puvis de Chavannes, 1879"
         }
     ],
+    "id": "5047e557-d879-4e45-9bcd-0906da694b17.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=146.61502075195312,11236.6025390625,1093.9554138183594,1449.7529296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=146.61502075195312,11236.6025390625,1093.9554138183594,1449.7529296875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5047e557-d879-4e45-9bcd-0906da694b17.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
