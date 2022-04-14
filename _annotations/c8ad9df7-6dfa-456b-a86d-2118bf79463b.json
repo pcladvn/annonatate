@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "220",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:57:49.066Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:57:49.066Z",
-            "modified": "2022-03-21T09:57:51.343Z"
+            "modified": "2022-04-14T13:44:24.814Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "220\nLouis Pasteur\nschilderij Albert Edelfelt, 1885"
         }
     ],
+    "id": "c8ad9df7-6dfa-456b-a86d-2118bf79463b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=214.790771484375,3167.3583984375,871.921875,1244.751953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=214.790771484375,3167.3583984375,871.921875,1244.751953125"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8ad9df7-6dfa-456b-a86d-2118bf79463b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
