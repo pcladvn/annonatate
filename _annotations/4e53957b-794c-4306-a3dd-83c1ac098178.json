@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 61
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "61",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:55:44.730Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:55:44.730Z",
-            "modified": "2022-03-21T08:55:48.241Z"
+            "modified": "2022-04-14T11:31:29.212Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "61\nDesign For A Statue Of \u201cJohn Bull\u2019s Other Playwright.\u201d After Certain Hints By \u201cG.B.S.\u201d cartoon E.T. Reed voor Punch- magazine, 1906"
         }
     ],
+    "id": "4e53957b-794c-4306-a3dd-83c1ac098178.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4452.2919921875,10622.16796875,513.7548828125,969.6826171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4452.2919921875,10622.16796875,513.7548828125,969.6826171875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4e53957b-794c-4306-a3dd-83c1ac098178.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
