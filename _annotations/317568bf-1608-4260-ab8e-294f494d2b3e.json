@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 56
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "163",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:38:06.570Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:38:06.570Z",
-            "modified": "2022-03-21T09:38:08.916Z"
+            "modified": "2022-04-14T13:08:27.718Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "163\nHouston Stewart Chamberlain\nfotochroom"
         }
     ],
+    "id": "317568bf-1608-4260-ab8e-294f494d2b3e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1313.1451416015625,12861.8046875,494.66943359375,718.7080078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1313.1451416015625,12861.8046875,494.66943359375,718.7080078125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "317568bf-1608-4260-ab8e-294f494d2b3e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
