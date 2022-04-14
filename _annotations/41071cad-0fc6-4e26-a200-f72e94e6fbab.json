@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 66
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "366",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:11:50.600Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:11:50.600Z",
-            "modified": "2022-03-21T11:11:53.026Z"
+            "modified": "2022-04-14T15:04:16.252Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "366\nInnocentiusX\nschilderij Diego Vela\u0301zquez, 1655"
         }
     ],
+    "id": "41071cad-0fc6-4e26-a200-f72e94e6fbab.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=98.82066345214844,15600.294921875,1149.644790649414,1440.9296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=98.82066345214844,15600.294921875,1149.644790649414,1440.9296875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "41071cad-0fc6-4e26-a200-f72e94e6fbab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
