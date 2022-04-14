@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 31
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "31",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:50:23.604Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:50:23.604Z",
-            "modified": "2022-03-21T08:50:28.151Z"
+            "modified": "2022-04-14T11:05:58.207Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "31\nSint-Christoffel (?)"
         }
     ],
+    "id": "07620f49-e8e1-4096-93b9-58e473da0a9f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1100.9666748046875,5260.90380859375,738.37939453125,1049.4140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1100.9666748046875,5260.90380859375,738.37939453125,1049.4140625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07620f49-e8e1-4096-93b9-58e473da0a9f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
