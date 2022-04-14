@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "301",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:45:23.441Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:45:23.441Z",
-            "modified": "2022-03-21T10:45:26.925Z"
+            "modified": "2022-04-14T14:09:58.318Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "301\n\u201c7 \u2013 Alveringhem \u2013 De kerk \u2013 L\u2019eglise\u201d\nprentbriefkaart"
         }
     ],
+    "id": "a1c178da-2adc-411b-832b-41582ff10c91.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=126.42796325683594,113.6462173461914,1076.3353424072266,1488.3203353881836"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=126.42796325683594,113.6462173461914,1076.3353424072266,1488.3203353881836"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a1c178da-2adc-411b-832b-41582ff10c91.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
