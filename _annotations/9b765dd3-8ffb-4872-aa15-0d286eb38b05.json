@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "308",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:46:21.737Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:46:21.737Z",
-            "modified": "2022-03-21T10:46:27.265Z"
+            "modified": "2022-04-14T14:11:30.392Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "308\n\u201cOm al \u2018t geen den volke goed is\u201d\nlogo De Vlaamsche Boekenhalle, c. 1920"
         }
     ],
+    "id": "9b765dd3-8ffb-4872-aa15-0d286eb38b05.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3405.406494140625,2528.17626953125,291.0009765625,276.882080078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3405.406494140625,2528.17626953125,291.0009765625,276.882080078125"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9b765dd3-8ffb-4872-aa15-0d286eb38b05.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
