@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "209",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:54:01.411Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:54:01.411Z",
-            "modified": "2022-03-21T09:54:03.987Z"
+            "modified": "2022-04-14T13:41:58.574Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "209\nErwin von Steinbach\nschilderij Matthaus Schiestl"
         }
     ],
+    "id": "b6f2eb4b-0794-4614-a101-f12a40c6f5ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=182.15234375,118.6761245727539,1341.4693603515625,1482.3037338256836"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=182.15234375,118.6761245727539,1341.4693603515625,1482.3037338256836"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b6f2eb4b-0794-4614-a101-f12a40c6f5ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
