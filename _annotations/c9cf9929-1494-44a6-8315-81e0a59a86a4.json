@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "253",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:09:17.228Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:09:17.228Z",
-            "modified": "2022-03-21T10:09:20.059Z"
+            "modified": "2022-04-14T13:52:37.906Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "253\nInfanta Margarita in roze jurk\nschilderij Diego Vela\u0301zquez, c. 1654-55"
         }
     ],
+    "id": "c9cf9929-1494-44a6-8315-81e0a59a86a4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=219.50155639648438,10035.53515625,1139.2645568847656,1896.3466796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=219.50155639648438,10035.53515625,1139.2645568847656,1896.3466796875"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c9cf9929-1494-44a6-8315-81e0a59a86a4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
