@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 84
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "383",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:29:41.551Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:29:41.551Z",
-            "modified": "2022-03-21T11:29:44.815Z"
+            "modified": "2022-04-14T15:08:05.048Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "383\nJacob van Artevelde\nbeeldhouwwerk Pieter De Vigne, 1863"
         }
     ],
+    "id": "1e9e7ffb-3308-414b-ae7a-af13ecfcbb76.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=977.93701171875,20720.5703125,500.1085205078125,727.888671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=977.93701171875,20720.5703125,500.1085205078125,727.888671875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1e9e7ffb-3308-414b-ae7a-af13ecfcbb76.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
