@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "221",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:59:54.586Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:59:54.586Z",
-            "modified": "2022-03-21T09:59:57.285Z"
+            "modified": "2022-04-14T13:44:42.096Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "221\nFridtjof\nbeeldhouwwerk Max Unger, 1913, Vangsnes"
         }
     ],
+    "id": "41b698bf-15e0-4c63-9fde-26b2a78f210a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1057.4677734375,3241.28564453125,736.3775634765625,1216.3388671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1057.4677734375,3241.28564453125,736.3775634765625,1216.3388671875"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "41b698bf-15e0-4c63-9fde-26b2a78f210a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
