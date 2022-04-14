@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "118",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:21:53.468Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:21:53.468Z",
-            "modified": "2022-03-21T09:21:55.938Z"
+            "modified": "2022-04-14T12:39:49.714Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "118\nChristian Friedrich Hebbel\nlitho naar schilderij Carl Rahl, 1851"
         }
     ],
+    "id": "9eaf1304-2d25-43cc-8ba2-af2bfccf9d9d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2819.68798828125,3237.05126953125,622.219482421875,487.666015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2819.68798828125,3237.05126953125,622.219482421875,487.666015625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9eaf1304-2d25-43cc-8ba2-af2bfccf9d9d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
