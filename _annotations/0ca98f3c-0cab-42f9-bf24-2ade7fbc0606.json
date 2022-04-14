@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "117",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:21:46.756Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:21:46.756Z",
-            "modified": "2022-03-21T09:21:49.324Z"
+            "modified": "2022-04-14T12:39:37.443Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "117\nHugo Wolf\nschilderij Ludwig Nauer, 1895"
         }
     ],
+    "id": "0ca98f3c-0cab-42f9-bf24-2ade7fbc0606.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2053.47998046875,2794.127685546875,824.59423828125,1012.41748046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2053.47998046875,2794.127685546875,824.59423828125,1012.41748046875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0ca98f3c-0cab-42f9-bf24-2ade7fbc0606.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
