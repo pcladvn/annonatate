@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "120",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:22:10.555Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:22:10.555Z",
-            "modified": "2022-03-21T09:22:12.942Z"
+            "modified": "2022-04-14T12:40:10.904Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "120\nNike\u0300 van Samothrake\nbeeldhouwwerk, c. 200 v.C."
         }
     ],
+    "id": "dfc69947-6b14-43a3-9e0a-e701fbbd609e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3786.601318359375,3246.19580078125,1015.937255859375,1243.09619140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3786.601318359375,3246.19580078125,1015.937255859375,1243.09619140625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dfc69947-6b14-43a3-9e0a-e701fbbd609e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
