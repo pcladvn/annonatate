@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 25
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "233",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:02:38.299Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:02:38.299Z",
-            "modified": "2022-03-21T10:02:40.918Z"
+            "modified": "2022-04-14T13:47:36.521Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "233\nCedern des Libanon \u2013 Cedars of Lebanon \u2013 Ce\u0300dres du Liban schilderij Friedrich Perlberg \u2013 \nprentbriefkaart"
         }
     ],
+    "id": "74ce849a-8156-4d83-b2dc-69f343660832.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2178.25341796875,5834.42724609375,1434.36083984375,861.8408203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2178.25341796875,5834.42724609375,1434.36083984375,861.8408203125"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "74ce849a-8156-4d83-b2dc-69f343660832.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
