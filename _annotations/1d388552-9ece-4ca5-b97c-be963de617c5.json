@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 50
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "157",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:37:18.514Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:37:18.514Z",
-            "modified": "2022-03-21T09:37:21.000Z"
+            "modified": "2022-04-14T13:06:20.712Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "157\nKleine Laatste Oordeel\nschilderij Peter Paul Rubens, c. 1619"
         }
     ],
+    "id": "1d388552-9ece-4ca5-b97c-be963de617c5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=929.6964721679688,8083.91943359375,1981.7622680664062,3031.51904296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=929.6964721679688,8083.91943359375,1981.7622680664062,3031.51904296875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1d388552-9ece-4ca5-b97c-be963de617c5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
