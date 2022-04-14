@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 43
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "343",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:04:22.742Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:04:22.742Z",
-            "modified": "2022-03-21T11:04:25.207Z"
+            "modified": "2022-04-14T14:57:05.870Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "343\nDer Sommer\nschilderij Hans Thoma, 1894"
         }
     ],
+    "id": "d243aa55-cda9-428c-a23d-3703d610a3bd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1629.319091796875,10020.80859375,1938.877197265625,1394.0029296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1629.319091796875,10020.80859375,1938.877197265625,1394.0029296875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d243aa55-cda9-428c-a23d-3703d610a3bd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
