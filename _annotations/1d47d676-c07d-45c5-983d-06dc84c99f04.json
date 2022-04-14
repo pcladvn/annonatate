@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 14
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "14",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:47:07.925Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:47:07.925Z",
-            "modified": "2022-03-21T08:47:10.352Z"
+            "modified": "2022-04-14T11:01:55.438Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "14\nEzechi\u00ebl\nfresco Michelangelo, 1508-12 \nSixtijnse Kapel, plafond, Rome"
         }
     ],
+    "id": "1d47d676-c07d-45c5-983d-06dc84c99f04.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2565.854248046875,2450.0703125,1094.89794921875,1136.646484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2565.854248046875,2450.0703125,1094.89794921875,1136.646484375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1d47d676-c07d-45c5-983d-06dc84c99f04.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
