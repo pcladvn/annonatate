@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 46
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "46",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:52:48.859Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:52:48.859Z",
-            "modified": "2022-03-21T08:52:51.112Z"
+            "modified": "2022-04-14T11:26:44.994Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "46\nDe val van Adam en Eva (De zondeval) & De verdrijving uit het paradijs\nfresco Michelangelo, 1508-12, \nSixtijnse Kapel, plafond, Rome"
         }
     ],
+    "id": "93a45165-d3f3-4738-9fa0-803003fb7c89.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=-36.21757507324219,7612.76220703125,3059.516647338867,1427.98779296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=-36.21757507324219,7612.76220703125,3059.516647338867,1427.98779296875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "93a45165-d3f3-4738-9fa0-803003fb7c89.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
