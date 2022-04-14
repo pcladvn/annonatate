@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 30
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "137",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:24:37.531Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:24:37.531Z",
-            "modified": "2022-03-21T09:24:39.979Z"
+            "modified": "2022-04-14T12:44:48.291Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "137\nAuguste Rodin\nfoto"
         }
     ],
+    "id": "eb16e154-8c21-4133-b861-59089f398eae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1520.890380859375,7499.1845703125,405.075927734375,645.6611328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1520.890380859375,7499.1845703125,405.075927734375,645.6611328125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eb16e154-8c21-4133-b861-59089f398eae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
