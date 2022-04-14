@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "114",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:21:21.316Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:21:21.316Z",
-            "modified": "2022-03-21T09:21:25.576Z"
+            "modified": "2022-04-14T12:38:14.947Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "114\nMoeder en kind\nschilderij Friedrich August von Kaulbach \u2013 prentbriefkaart [Verlag Seemann ?]"
         }
     ],
+    "id": "22831dcb-7ebb-4dd1-acf4-0f3c21968999.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=218.42771911621094,2605.39697265625,1036.9842681884766,1036.802734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=218.42771911621094,2605.39697265625,1036.9842681884766,1036.802734375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "22831dcb-7ebb-4dd1-acf4-0f3c21968999.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
