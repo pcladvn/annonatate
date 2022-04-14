@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 36
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "36",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:51:09.925Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:51:09.925Z",
-            "modified": "2022-03-21T08:51:12.699Z"
+            "modified": "2022-04-14T11:23:24.570Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "36\nSluitzegel SKVH\ntekening Joe English, c. 1916-1917"
         }
     ],
+    "id": "0b12cc03-de7c-447b-bcd6-917d23ee1e7d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1774.3179931640625,6417.54248046875,382.2789306640625,488.2783203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1774.3179931640625,6417.54248046875,382.2789306640625,488.2783203125"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b12cc03-de7c-447b-bcd6-917d23ee1e7d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
