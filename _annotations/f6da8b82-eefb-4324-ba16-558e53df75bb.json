@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 47
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "154",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:36:54.074Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:36:54.074Z",
-            "modified": "2022-03-21T09:36:56.282Z"
+            "modified": "2022-04-14T13:04:53.787Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "154\nJudith\nhoutsnede Bruno Goldschmitt, c. 1910-1920"
         }
     ],
+    "id": "f6da8b82-eefb-4324-ba16-558e53df75bb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2914.2529296875,9333.91015625,792.4072265625,1121.7158203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2914.2529296875,9333.91015625,792.4072265625,1121.7158203125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f6da8b82-eefb-4324-ba16-558e53df75bb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
