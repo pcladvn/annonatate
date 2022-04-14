@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 74
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "74",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:58:45.953Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:58:45.953Z",
-            "modified": "2022-03-21T08:58:48.878Z"
+            "modified": "2022-04-14T11:33:59.866Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "74\nDe bewaker van de vallei\nschilderij Hans Thoma, 1893"
         }
     ],
+    "id": "a0302b28-6dea-4760-997c-e6bf4749541e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1891.2755126953125,14333.28125,2312.7098388671875,2929.908203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1891.2755126953125,14333.28125,2312.7098388671875,2929.908203125"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a0302b28-6dea-4760-997c-e6bf4749541e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
