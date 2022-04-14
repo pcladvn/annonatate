@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 39
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "247",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:08:12.859Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:08:12.859Z",
-            "modified": "2022-03-21T10:08:15.918Z"
+            "modified": "2022-04-14T13:50:12.534Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "247\nChristus aan het kruis\nschilderij Peter Paul Rubens, c. 281 1613"
         }
     ],
+    "id": "20bd1cfc-e6c2-4846-9673-e866cde1d072.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=583.19580078125,9287.5126953125,484.4527587890625,899.802734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=583.19580078125,9287.5126953125,484.4527587890625,899.802734375"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "20bd1cfc-e6c2-4846-9673-e866cde1d072.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
