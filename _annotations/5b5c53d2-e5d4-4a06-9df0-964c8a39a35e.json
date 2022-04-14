@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "219",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:57:42.706Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:57:42.706Z",
-            "modified": "2022-03-21T09:57:44.865Z"
+            "modified": "2022-04-14T13:44:12.680Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "219\nDante und die edlen Frauen von Ravenna\nschilderij Anselm Feuerbach, 1858"
         }
     ],
+    "id": "5b5c53d2-e5d4-4a06-9df0-964c8a39a35e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2304.91455078125,2243.734130859375,2170.87158203125,1366.388916015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2304.91455078125,2243.734130859375,2170.87158203125,1366.388916015625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5b5c53d2-e5d4-4a06-9df0-964c8a39a35e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
