@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 39
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "39",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:51:40.076Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:51:40.076Z",
-            "modified": "2022-03-21T08:51:44.457Z"
+            "modified": "2022-04-14T11:24:13.624Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "39\nCharles Baudelaire\ngravure Pierre-Eug\u00e8ne Vibert, voor 1920 -\nnaar foto \u00c9tienne Carjat, 1863"
         }
     ],
+    "id": "ed940f26-5330-4159-987d-f24242dde42e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=651.3286743164062,7183.6845703125,309.2120361328125,455.76416015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=651.3286743164062,7183.6845703125,309.2120361328125,455.76416015625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ed940f26-5330-4159-987d-f24242dde42e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
