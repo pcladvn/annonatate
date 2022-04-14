@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 91
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "198",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:46:21.994Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:46:21.994Z",
-            "modified": "2022-03-21T09:46:24.789Z"
+            "modified": "2022-04-14T13:16:55.525Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "198\nModern Italy - The Pifferari\nschilderij William Turner, 1838"
         }
     ],
+    "id": "a4eaa9f4-8537-4642-8733-464d8f873aee.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=209.89309692382812,20065.1015625,3556.380096435547,2714.767578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=209.89309692382812,20065.1015625,3556.380096435547,2714.767578125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a4eaa9f4-8537-4642-8733-464d8f873aee.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
