@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 77
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "77",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:59:09.689Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:59:09.689Z",
-            "modified": "2022-03-21T08:59:12.614Z"
+            "modified": "2022-04-14T11:34:33.211Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "77\nSneeuwwitje en Rozerood\nillustratie Jakob von Steinle"
         }
     ],
+    "id": "cb60c390-f6eb-4203-8e99-c67bb7a812d5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=58.804969787597656,15718.474609375,1091.7602157592773,2157.013671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=58.804969787597656,15718.474609375,1091.7602157592773,2157.013671875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cb60c390-f6eb-4203-8e99-c67bb7a812d5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
