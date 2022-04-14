@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 76
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "76",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:59:01.633Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:59:01.633Z",
-            "modified": "2022-03-21T08:59:04.108Z"
+            "modified": "2022-04-14T11:34:19.311Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "76\nMu\u0308hle am Weiher\nlithografie Franz Hecker, 1907"
         }
     ],
+    "id": "52e3509f-5c25-4ae5-8c72-1edc484c25ed.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4195.3193359375,16015.5234375,856.51123046875,604.228515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4195.3193359375,16015.5234375,856.51123046875,604.228515625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "52e3509f-5c25-4ae5-8c72-1edc484c25ed.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
