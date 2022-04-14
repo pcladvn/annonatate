@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 22
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "22",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:48:38.613Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:48:38.613Z",
-            "modified": "2022-03-21T08:48:41.338Z"
+            "modified": "2022-04-14T11:04:21.753Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "22\nKattensymfonie\ntekening Moritz von Schwind, 1868"
         }
     ],
+    "id": "7209496b-3573-46a8-8482-2b2d0a7eb23c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=934.65380859375,5091.5966796875,907.1953125,180.73974609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=934.65380859375,5091.5966796875,907.1953125,180.73974609375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7209496b-3573-46a8-8482-2b2d0a7eb23c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
