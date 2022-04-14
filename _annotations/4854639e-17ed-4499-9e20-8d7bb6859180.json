@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 80
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "187",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:44.378Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:44.378Z",
-            "modified": "2022-03-21T09:42:46.912Z"
+            "modified": "2022-04-14T13:14:54.997Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "187\nSint-Dominique\nfresco Fra Angelico, c. 1437-1446"
         }
     ],
+    "id": "4854639e-17ed-4499-9e20-8d7bb6859180.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4413.93017578125,17341.662109375,415.1640625,727.9609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4413.93017578125,17341.662109375,415.1640625,727.9609375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4854639e-17ed-4499-9e20-8d7bb6859180.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
