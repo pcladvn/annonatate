@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 23
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "23",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:49:05.821Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:49:05.821Z",
-            "modified": "2022-03-21T08:49:08.572Z"
+            "modified": "2022-04-14T11:04:48.367Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "23\nDe verrezen Christus\nstudie Michelangelo voor fresco Het Laatste Oordeel in Sixtijnse kapel"
         }
     ],
+    "id": "f5197c24-f555-4f70-9627-0f0bc0b06e91.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1906.01220703125,3814.257568359375,411.904052734375,1187.856201171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1906.01220703125,3814.257568359375,411.904052734375,1187.856201171875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f5197c24-f555-4f70-9627-0f0bc0b06e91.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
