@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 48
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "155",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:37:01.042Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:37:01.042Z",
-            "modified": "2022-03-21T09:37:03.968Z"
+            "modified": "2022-04-14T13:05:13.774Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "155\nZelfportret\nschilderij Albrecht Du\u0308rer, 1498"
         }
     ],
+    "id": "bcf5497d-38b8-43e5-acdf-3a06779bddb5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3693.850830078125,8933.26171875,1139.024169921875,1477.4765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3693.850830078125,8933.26171875,1139.024169921875,1477.4765625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bcf5497d-38b8-43e5-acdf-3a06779bddb5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
