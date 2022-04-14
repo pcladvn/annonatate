@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 90
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "389",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:30:30.575Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:30:30.575Z",
-            "modified": "2022-03-21T11:30:33.183Z"
+            "modified": "2022-04-14T15:12:18.664Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "389\nDe annunciatie\nschilderij Bartolom\u00e9-Esteban Murillo, c. 1665-1670"
         }
     ],
+    "id": "7bab1fae-36e6-46fe-8204-5db66f58b669.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=176.87037658691406,21908.388671875,1911.340560913086,2748.54296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=176.87037658691406,21908.388671875,1911.340560913086,2748.54296875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7bab1fae-36e6-46fe-8204-5db66f58b669.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
