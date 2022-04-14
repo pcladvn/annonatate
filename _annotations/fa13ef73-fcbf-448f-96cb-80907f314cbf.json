@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 48
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "48",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:53:14.747Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:53:14.747Z",
-            "modified": "2022-03-21T08:53:16.882Z"
+            "modified": "2022-04-14T11:27:30.729Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "48\nCharlie Chaplin"
         }
     ],
+    "id": "fa13ef73-fcbf-448f-96cb-80907f314cbf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3187.72216796875,7613.9873046875,491.08740234375,1338.1552734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3187.72216796875,7613.9873046875,491.08740234375,1338.1552734375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fa13ef73-fcbf-448f-96cb-80907f314cbf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
