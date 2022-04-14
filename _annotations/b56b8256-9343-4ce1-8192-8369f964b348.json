@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 18
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "125",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:22:48.235Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:22:48.235Z",
-            "modified": "2022-03-21T09:22:51.796Z"
+            "modified": "2022-04-14T12:41:18.719Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "125\nGiotto\nbeeldhouwwerk Thomas Vin\u00e7otte, 1874"
         }
     ],
+    "id": "b56b8256-9343-4ce1-8192-8369f964b348.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2738.658203125,3681.13623046875,1041.8466796875,1670.85205078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2738.658203125,3681.13623046875,1041.8466796875,1670.85205078125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b56b8256-9343-4ce1-8192-8369f964b348.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
