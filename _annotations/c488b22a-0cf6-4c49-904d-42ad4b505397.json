@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 90
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "197",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:46:09.818Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:46:09.818Z",
-            "modified": "2022-03-21T09:46:12.278Z"
+            "modified": "2022-04-14T13:16:41.895Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "197\nGiovanni Papini\nfoto"
         }
     ],
+    "id": "c488b22a-0cf6-4c49-904d-42ad4b505397.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3815.805419921875,20431.60546875,990.536376953125,1227.01953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3815.805419921875,20431.60546875,990.536376953125,1227.01953125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c488b22a-0cf6-4c49-904d-42ad4b505397.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
