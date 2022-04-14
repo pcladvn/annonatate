@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 87
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "295",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:40:25.249Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:40:25.249Z",
-            "modified": "2022-03-21T10:40:28.366Z"
+            "modified": "2022-04-14T14:04:21.645Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "295\nPortret van Hieronymus\nHolzschuher\nschilderij Albrecht Du\u0308rer, 1526"
         }
     ],
+    "id": "ec7211a8-6c9e-4f2c-9001-f047cf97058d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3034.604736328125,20027.287109375,1520.132568359375,1982.958984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3034.604736328125,20027.287109375,1520.132568359375,1982.958984375"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ec7211a8-6c9e-4f2c-9001-f047cf97058d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
