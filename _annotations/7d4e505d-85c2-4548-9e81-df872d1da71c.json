@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 66
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "274",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:37:36.626Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:37:36.626Z",
-            "modified": "2022-03-21T10:37:39.870Z"
+            "modified": "2022-04-14T13:58:35.993Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "274\nJongen met gans\nbeeldhouwwerk [Boethos van Kalchedon], 1ste-2de eeuw v.C."
         }
     ],
+    "id": "7d4e505d-85c2-4548-9e81-df872d1da71c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3586.729736328125,15180.9619140625,941.058349609375,1215.3740234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3586.729736328125,15180.9619140625,941.058349609375,1215.3740234375"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7d4e505d-85c2-4548-9e81-df872d1da71c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
