@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 89
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "297",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:40:41.898Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:40:41.898Z",
-            "modified": "2022-03-21T10:40:44.658Z"
+            "modified": "2022-04-14T14:04:42.357Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "297\nDer Kugelspieler\nbeeldhouwwerk Adolf Von Hildebrand, 1891"
         }
     ],
+    "id": "edb84b44-2482-4090-8c2c-c65de133ece1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1593.85595703125,22002.328125,1090.609375,1622.138671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1593.85595703125,22002.328125,1090.609375,1622.138671875"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "edb84b44-2482-4090-8c2c-c65de133ece1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
