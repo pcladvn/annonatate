@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "13",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:46:59.949Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:46:59.949Z",
-            "modified": "2022-03-21T08:47:02.908Z"
+            "modified": "2022-04-14T11:01:17.713Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "13\nSint-Elisabeth van Hongarije\nschilderij Hans Holbein de Oude \n(rechterluik van triptiek Sint-Sebastiaan), 1516, \u00b0 Augsburg"
         }
     ],
+    "id": "f4bf9fa4-4ffd-4af5-bc58-cc84089916c8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1532.09912109375,1625.415283203125,1024.490966796875,2218.12646484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1532.09912109375,1625.415283203125,1024.490966796875,2218.12646484375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f4bf9fa4-4ffd-4af5-bc58-cc84089916c8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
