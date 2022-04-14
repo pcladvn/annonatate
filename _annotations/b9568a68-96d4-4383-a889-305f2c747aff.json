@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "119",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:22:02.284Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:22:02.284Z",
-            "modified": "2022-03-21T09:22:06.722Z"
+            "modified": "2022-04-14T12:40:00.899Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "119\nFr\u00e9d\u00e9ric Chopin\nschilderij Eug\u00e8ne Delacroix, 1838"
         }
     ],
+    "id": "b9568a68-96d4-4383-a889-305f2c747aff.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3440.23828125,3247.175537109375,366.792724609375,498.080322265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3440.23828125,3247.175537109375,366.792724609375,498.080322265625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b9568a68-96d4-4383-a889-305f2c747aff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
