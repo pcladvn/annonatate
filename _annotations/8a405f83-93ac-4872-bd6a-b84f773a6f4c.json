@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 67
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "367",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:11:56.712Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:11:56.712Z",
-            "modified": "2022-03-21T11:11:59.452Z"
+            "modified": "2022-04-14T15:04:29.759Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "367\nSpotprent Joseph Chamberlain (?) \nBijschrift \"\"Sir Joe Chamberlain, England's way through history\"\" en \"\"Thou careless, awake! Thou peacemaker, fight! Stand, England, for honour,  and God guard the Right!\"\" \n1e strofe uit \"\"Wake up, England\"\" van Robert Bridges, Poems of the Great War\""
         }
     ],
+    "id": "8a405f83-93ac-4872-bd6a-b84f773a6f4c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1266.25830078125,16297.9365234375,561.6395263671875,750.6318359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1266.25830078125,16297.9365234375,561.6395263671875,750.6318359375"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8a405f83-93ac-4872-bd6a-b84f773a6f4c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
