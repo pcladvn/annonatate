@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 67
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "174",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:40:44.490Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:40:44.490Z",
-            "modified": "2022-03-21T09:40:49.528Z"
+            "modified": "2022-04-14T13:10:36.491Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "174\nDe dode vogel (L\u2019Oiseau mort) schilderij Jean Baptiste Greuze, c. 1800"
         }
     ],
+    "id": "43fdf837-f0c1-459b-8982-3d1785cf89f9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=188.70127868652344,14487.6240234375,956.6076812744141,1181.408203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=188.70127868652344,14487.6240234375,956.6076812744141,1181.408203125"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "43fdf837-f0c1-459b-8982-3d1785cf89f9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
