@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 104
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "104",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:03:05.848Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:03:05.848Z",
-            "modified": "2022-03-21T09:03:08.427Z"
+            "modified": "2022-04-14T11:45:45.509Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "104\nGrafmonument van Titiaan\nbeeldhouwwerk Luigi, Pietro en Andrea Zandomeneghi, 1843-1852\nBasilica di Santa Maria Gloriosa dei Frari, Veneti\u00eb"
         }
     ],
+    "id": "108971d0-7da3-435b-944f-94629f7d229c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=140.9566650390625,24760.603515625,1249.7581787109375,1541.546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=140.9566650390625,24760.603515625,1249.7581787109375,1541.546875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "108971d0-7da3-435b-944f-94629f7d229c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
