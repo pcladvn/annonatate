@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 46
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "346",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:04:47.198Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:04:47.198Z",
-            "modified": "2022-03-21T11:04:49.837Z"
+            "modified": "2022-04-14T14:57:52.444Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "346\nGoethe huis in Weimar -\nprentbriefkaart"
         }
     ],
+    "id": "09343623-92db-4786-9469-3e0d96129863.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3514.526123046875,11169.673828125,1210.939697265625,772.015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3514.526123046875,11169.673828125,1210.939697265625,772.015625"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "09343623-92db-4786-9469-3e0d96129863.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
