@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 41
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "41",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:52:05.690Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:52:05.690Z",
-            "modified": "2022-03-21T08:52:10.843Z"
+            "modified": "2022-04-14T11:24:57.386Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "41\nDe vrouwen bij het graf van Christus\nfresco Fra Angelico, 1451-52, \nSantissima Annunziata, Firenze"
         }
     ],
+    "id": "4c4d10fe-d96e-42ae-a9eb-2585e88d8830.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2146.854736328125,6430.81103515625,1736.093994140625,1663.35595703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2146.854736328125,6430.81103515625,1736.093994140625,1663.35595703125"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4c4d10fe-d96e-42ae-a9eb-2585e88d8830.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
