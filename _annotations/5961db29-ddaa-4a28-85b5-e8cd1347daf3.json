@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 16
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "316",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:47:24.904Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:47:24.904Z",
-            "modified": "2022-03-21T10:47:27.907Z"
+            "modified": "2022-04-14T14:14:13.882Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "316\nMedusa Rondanini\nbeeldhouwwerk, 1ste eeuw v.C."
         }
     ],
+    "id": "5961db29-ddaa-4a28-85b5-e8cd1347daf3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1845.066162109375,3970.87109375,1447.320068359375,958.759765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1845.066162109375,3970.87109375,1447.320068359375,958.759765625"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5961db29-ddaa-4a28-85b5-e8cd1347daf3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
