@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 14
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "314",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:47:09.624Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:47:09.624Z",
-            "modified": "2022-03-21T10:47:12.679Z"
+            "modified": "2022-04-14T14:13:42.229Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "314\nDe profeet Jeremiah\nfresco Michelangelo, 1508-12, \nSixtijnse Kapel, plafond, Rome"
         }
     ],
+    "id": "25f8ed2c-a1a8-4557-a308-a8ca988b14a5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3274.54638671875,2783.1845703125,1459.3173828125,1785.0595703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3274.54638671875,2783.1845703125,1459.3173828125,1785.0595703125"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "25f8ed2c-a1a8-4557-a308-a8ca988b14a5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
