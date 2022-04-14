@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 77
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "184",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:20.266Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:20.266Z",
-            "modified": "2022-03-21T09:42:22.674Z"
+            "modified": "2022-04-14T13:12:43.548Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "184\nKind in doeken\ngeglazuurd terracotta Andrea della Robbia, 1487\nOspedale degli Innocenti, Firenze"
         }
     ],
+    "id": "eeb33d6d-a74a-4972-9e1a-ad9473ee14d0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=171.2107696533203,17554.669921875,495.6492156982422,454.7890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=171.2107696533203,17554.669921875,495.6492156982422,454.7890625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eeb33d6d-a74a-4972-9e1a-ad9473ee14d0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
