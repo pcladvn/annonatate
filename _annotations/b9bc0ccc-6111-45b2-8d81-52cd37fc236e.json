@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 37
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "245",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:07:39.859Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:07:39.859Z",
-            "modified": "2022-03-21T10:07:42.450Z"
+            "modified": "2022-04-14T13:49:59.346Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "245\nOnze-Lieve-Vrouwekathedraal, Antwerpen"
         }
     ],
+    "id": "b9bc0ccc-6111-45b2-8d81-52cd37fc236e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4251.2763671875,7942.4169921875,265.86474609375,1022.072265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4251.2763671875,7942.4169921875,265.86474609375,1022.072265625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b9bc0ccc-6111-45b2-8d81-52cd37fc236e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
