@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "309",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:46:31.592Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:46:31.592Z",
-            "modified": "2022-03-21T10:46:34.187Z"
+            "modified": "2022-04-14T14:12:31.758Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "309\n[Christus met doornenkroon]"
         }
     ],
+    "id": "0b850df8-a89c-4851-ab62-1a156cc98801.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3666.361572265625,1551.8551025390625,1016.973388671875,1283.1448974609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3666.361572265625,1551.8551025390625,1016.973388671875,1283.1448974609375"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b850df8-a89c-4851-ab62-1a156cc98801.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
