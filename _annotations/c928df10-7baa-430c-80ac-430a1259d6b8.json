@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 54
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "262",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:10:34.348Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:10:34.348Z",
-            "modified": "2022-03-21T10:10:36.548Z"
+            "modified": "2022-04-14T13:55:26.213Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "262\nAmazone und Kentaur\nschilderij Franz von Stuck, 1912"
         }
     ],
+    "id": "c928df10-7baa-430c-80ac-430a1259d6b8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=235.984130859375,11973.712890625,2702.26904296875,1379.4306640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=235.984130859375,11973.712890625,2702.26904296875,1379.4306640625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c928df10-7baa-430c-80ac-430a1259d6b8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
