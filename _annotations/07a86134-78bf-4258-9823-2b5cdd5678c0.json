@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 34
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "34",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:50:54.164Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:50:54.164Z",
-            "modified": "2022-03-21T08:50:57.583Z"
+            "modified": "2022-04-14T11:22:52.289Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "34\nSint-Genoveva waakt over Parijs\nschilderij Pierre Puvis de Chavannes, 1898"
         }
     ],
+    "id": "07a86134-78bf-4258-9823-2b5cdd5678c0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3971.764404296875,4304.13037109375,1019.948486328125,1908.31689453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3971.764404296875,4304.13037109375,1019.948486328125,1908.31689453125"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07a86134-78bf-4258-9823-2b5cdd5678c0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
