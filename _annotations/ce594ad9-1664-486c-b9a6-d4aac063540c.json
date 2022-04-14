@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 90
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "90",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:01:06.425Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:01:06.425Z",
-            "modified": "2022-03-21T09:01:09.090Z"
+            "modified": "2022-04-14T11:42:41.914Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "90\nZonnige dreef\nschilderij Emile Claus, 1893"
         }
     ],
+    "id": "ce594ad9-1664-486c-b9a6-d4aac063540c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1821.726806640625,19253.62890625,3159.308349609375,2012.52734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1821.726806640625,19253.62890625,3159.308349609375,2012.52734375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ce594ad9-1664-486c-b9a6-d4aac063540c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
