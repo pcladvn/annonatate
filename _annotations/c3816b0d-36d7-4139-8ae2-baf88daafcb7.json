@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "4",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:45:16.374Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:45:16.374Z",
-            "modified": "2022-03-21T08:45:19.576Z"
+            "modified": "2022-04-14T10:58:22.333Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "4\nCherubijn met luit\ndetail uit retabel in Sint-Maartenskathedraal, Lucca -\nfoto gebroeders Alinari, 1893"
         }
     ],
+    "id": "c3816b0d-36d7-4139-8ae2-baf88daafcb7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1537.03466796875,1281.179931640625,531.515625,388.220947265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1537.03466796875,1281.179931640625,531.515625,388.220947265625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c3816b0d-36d7-4139-8ae2-baf88daafcb7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
