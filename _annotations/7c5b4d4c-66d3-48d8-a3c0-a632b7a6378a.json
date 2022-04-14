@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 72
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "280",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:38:32.626Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:38:32.626Z",
-            "modified": "2022-03-21T10:38:35.825Z"
+            "modified": "2022-04-14T14:01:17.131Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "280\nSofokles\nRomeins marmeren standbeeld, c. 30 v.C., Terracina\nnaar Grieks bronzen standbeeld, c. 340-330 v. C."
         }
     ],
+    "id": "7c5b4d4c-66d3-48d8-a3c0-a632b7a6378a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1163.2681884765625,17388.99609375,935.5684814453125,1284.111328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1163.2681884765625,17388.99609375,935.5684814453125,1284.111328125"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7c5b4d4c-66d3-48d8-a3c0-a632b7a6378a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
