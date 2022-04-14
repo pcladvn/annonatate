@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 24
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "232",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:02:30.356Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:02:30.356Z",
-            "modified": "2022-03-21T10:02:33.778Z"
+            "modified": "2022-04-14T13:47:19.434Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "232\nElisabeth van Wied, Koningin Elisabeth van Roemeni\u00eb\nFoto"
         }
     ],
+    "id": "a36d4cf1-1940-4aea-be39-0f4118b3ef41.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3593.55029296875,5024.587890625,959.490234375,948.17822265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3593.55029296875,5024.587890625,959.490234375,948.17822265625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a36d4cf1-1940-4aea-be39-0f4118b3ef41.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
