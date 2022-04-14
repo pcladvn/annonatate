@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 100
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "100",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:02:35.056Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:02:35.056Z",
-            "modified": "2022-03-21T09:02:37.789Z"
+            "modified": "2022-04-14T11:45:02.132Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "100\nRomain Rolland\nfoto Rodolphe Schlemmer, c. 1930"
         }
     ],
+    "id": "8e211303-c133-4dab-98d2-608c1019adf6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1246.762451171875,23545.48046875,487.8001708984375,559.552734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1246.762451171875,23545.48046875,487.8001708984375,559.552734375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8e211303-c133-4dab-98d2-608c1019adf6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
