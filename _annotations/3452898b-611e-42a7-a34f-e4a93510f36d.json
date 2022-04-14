@@ -15,17 +15,6 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "1"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Prentbriefkaart",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pcladvn",
-                "name": "pcladvn"
-            },
-            "created": "2022-04-14T10:56:27.865Z",
-            "modified": "2022-04-14T10:56:29.760Z"
         }
     ],
     "id": "3452898b-611e-42a7-a34f-e4a93510f36d.json",
