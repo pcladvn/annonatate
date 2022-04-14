@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "7",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:46:00.877Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:46:00.877Z",
-            "modified": "2022-03-21T08:46:03.323Z"
+            "modified": "2022-04-14T10:59:09.503Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "7\nAncient of Days\n\u201cThe Ancient of Days setting a Compass to the Earth\u201d, boekomslag door William Blake, 1794 voor \u201cEurope a Prophecy\u201d (editie D)"
         }
     ],
+    "id": "147f0d7a-1cd8-47aa-acd3-417aacfffc28.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3605.40673828125,30.524280548095703,1343.8037109375,2056.2435417175293"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3605.40673828125,30.524280548095703,1343.8037109375,2056.2435417175293"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "147f0d7a-1cd8-47aa-acd3-417aacfffc28.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
