@@ -3,33 +3,44 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "1",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:44:41.998Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:44:41.998Z",
-            "modified": "2022-03-21T08:44:45.207Z"
+            "modified": "2022-03-21T08:44:45.207Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "1"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Prentbriefkaart",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2022-04-14T10:56:27.865Z",
+            "modified": "2022-04-14T10:56:29.760Z"
         }
     ],
+    "id": "3452898b-611e-42a7-a34f-e4a93510f36d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=120.11388397216797,50.96918869018555,971.568977355957,1100.901294708252"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=120.11388397216797,50.96918869018555,971.568977355957,1100.901294708252"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3452898b-611e-42a7-a34f-e4a93510f36d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
