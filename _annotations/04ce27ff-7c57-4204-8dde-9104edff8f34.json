@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "216",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:57:19.778Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:57:19.778Z",
-            "modified": "2022-03-21T09:57:22.417Z"
+            "modified": "2022-04-14T13:43:50.365Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "216\nAbschied im Morgengrauen\nschilderij Moritz von Schwind, 1859"
         }
     ],
+    "id": "04ce27ff-7c57-4204-8dde-9104edff8f34.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2644.873291015625,831.23193359375,968.97216796875,1379.298095703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2644.873291015625,831.23193359375,968.97216796875,1379.298095703125"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "04ce27ff-7c57-4204-8dde-9104edff8f34.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
