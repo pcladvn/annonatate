@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 60
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "268",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:11:30.139Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:11:30.139Z",
-            "modified": "2022-03-21T10:11:32.306Z"
+            "modified": "2022-04-14T13:57:08.835Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "268\nLuitspelende engel\nfresco Melozzo da Forli\u0300, c. 1480, oorspronkelijk in SS. Apostoli, Rome"
         }
     ],
+    "id": "5d721f4e-aee9-446c-ad5b-b22d9cd4d0ad.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=211.92950439453125,13371.3759765625,1578.0896606445312,1860.9228515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=211.92950439453125,13371.3759765625,1578.0896606445312,1860.9228515625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5d721f4e-aee9-446c-ad5b-b22d9cd4d0ad.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
