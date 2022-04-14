@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 65
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "273",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:37:28.690Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:37:28.690Z",
-            "modified": "2022-03-21T10:37:31.184Z"
+            "modified": "2022-04-14T13:58:21.375Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "273\nPrima messa di Don Francesco Rossi\nschilderij, 1931, Basilica di Sant\u2019Eufemia, Milano \u2013 prentbriefkaart"
         }
     ],
+    "id": "5c72960b-1a23-4a2b-b2e1-8719ffaad6cb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1086.1802978515625,15226.576171875,666.708984375,580.771484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1086.1802978515625,15226.576171875,666.708984375,580.771484375"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5c72960b-1a23-4a2b-b2e1-8719ffaad6cb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
