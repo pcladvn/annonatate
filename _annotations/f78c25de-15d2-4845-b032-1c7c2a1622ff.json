@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "113",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:21:11.836Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:21:11.836Z",
-            "modified": "2022-03-21T09:21:14.216Z"
+            "modified": "2022-04-14T12:38:03.097Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "113\nDe overgave van Breda\nschilderij Diego Vela\u0301zquez, 1634/35"
         }
     ],
+    "id": "f78c25de-15d2-4845-b032-1c7c2a1622ff.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2797.1171875,1586.665283203125,2041.31005859375,1679.633544921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2797.1171875,1586.665283203125,2041.31005859375,1679.633544921875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f78c25de-15d2-4845-b032-1c7c2a1622ff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
