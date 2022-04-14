@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 68
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "276",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:37:55.977Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:37:55.977Z",
-            "modified": "2022-03-21T10:38:00.136Z"
+            "modified": "2022-04-14T14:00:51.652Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "276\nLandschap met herders en boeren\nschilderij Jacob van Ruisdael, 1660"
         }
     ],
+    "id": "ff7a0a5e-5ca9-4c16-ab3e-3462890710e5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1104.7120361328125,15365.8798828125,2513.4918212890625,2038.2880859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1104.7120361328125,15365.8798828125,2513.4918212890625,2038.2880859375"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ff7a0a5e-5ca9-4c16-ab3e-3462890710e5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
