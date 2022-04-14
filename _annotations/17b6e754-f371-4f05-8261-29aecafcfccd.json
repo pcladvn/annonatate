@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 77
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "285",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:39:09.458Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:39:09.458Z",
-            "modified": "2022-03-21T10:39:12.224Z"
+            "modified": "2022-04-14T14:02:19.062Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "285\nKo\u0308nig Kro\u0308sus und die Waldnymphe\nschilderij Moritz von Schwind"
         }
     ],
+    "id": "17b6e754-f371-4f05-8261-29aecafcfccd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3590.955322265625,17094.818359375,984.309814453125,1492.884765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3590.955322265625,17094.818359375,984.309814453125,1492.884765625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "17b6e754-f371-4f05-8261-29aecafcfccd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
