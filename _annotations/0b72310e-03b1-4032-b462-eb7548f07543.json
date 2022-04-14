@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 54
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "161",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:37:47.210Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:37:47.210Z",
-            "modified": "2022-03-21T09:37:50.122Z"
+            "modified": "2022-04-14T13:07:35.175Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "161\nHet Laatste Oordeel\nschilderij Michelangelo, 1536-41, \nSixtijnse Kapel, Rome"
         }
     ],
+    "id": "0b72310e-03b1-4032-b462-eb7548f07543.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2761.737060546875,10434.43359375,2080.282470703125,2728.6650390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2761.737060546875,10434.43359375,2080.282470703125,2728.6650390625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b72310e-03b1-4032-b462-eb7548f07543.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
