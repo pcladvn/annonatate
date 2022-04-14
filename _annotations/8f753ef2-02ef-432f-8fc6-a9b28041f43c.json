@@ -11,25 +11,25 @@ order: 78
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-03-21T11:13:32.591Z",
+            "modified": "2022-04-14T15:07:06.453Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "378"
+            "value": "378\nApollino\n(Romeinse kopie van) Grieks standbeeld"
         }
     ],
     "id": "8f753ef2-02ef-432f-8fc6-a9b28041f43c.json",
     "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2754.13134765625,18177.53515625,238.142333984375,622.04296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2754.13134765625,18177.53515625,238.142333984375,622.04296875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
     "type": "Annotation"
 }
