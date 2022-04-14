@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "306",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:45:58.047Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:45:58.047Z",
-            "modified": "2022-03-21T10:46:00.671Z"
+            "modified": "2022-04-14T14:11:06.522Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "306\n\"Trezetje\"\nprentbriefkaart Jules Fonteyne uit reeks \"Brugge op straat\""
         }
     ],
+    "id": "12f173f4-0c1b-4b82-bc57-3ce35a3b654e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2324.689453125,1450.971435546875,808.6337890625,1077.031005859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2324.689453125,1450.971435546875,808.6337890625,1077.031005859375"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "12f173f4-0c1b-4b82-bc57-3ce35a3b654e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
