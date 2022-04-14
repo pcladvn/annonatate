@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "152",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:36:39.025Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:36:39.025Z",
-            "modified": "2022-03-21T09:36:41.292Z"
+            "modified": "2022-04-14T13:04:26.271Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "152\nWolfgang Amadeus Mozart\nschilderij Johann Heinrich Wilhelm Tischbein, c. 1790"
         }
     ],
+    "id": "df7b1c0d-3feb-4f3b-a198-d3049ee320fa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=148.42938232421875,8731.068359375,831.416259765625,1343.9755859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=148.42938232421875,8731.068359375,831.416259765625,1343.9755859375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "df7b1c0d-3feb-4f3b-a198-d3049ee320fa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
