@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 20
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "127",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:23:10.291Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:23:10.291Z",
-            "modified": "2022-03-21T09:23:13.489Z"
+            "modified": "2022-04-14T12:41:56.414Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "127\nSint-Augustinus en zijn moeder Sint-Monica\nschilderij Ary Scheffer, 1855"
         }
     ],
+    "id": "efd6ce09-1aa0-46ca-84a4-1a367a07082d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2789.0615234375,5173.70849609375,509.2568359375,849.45068359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2789.0615234375,5173.70849609375,509.2568359375,849.45068359375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "efd6ce09-1aa0-46ca-84a4-1a367a07082d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
