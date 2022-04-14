@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 57
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "265",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:11:03.492Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:11:03.492Z",
-            "modified": "2022-03-21T10:11:05.796Z"
+            "modified": "2022-04-14T13:56:28.553Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "265\nPortret van Karel V (1500-58), keizer van het Heilige Roomse Rijk\nin de stijl van Jan Cornelisz Vermeyen, c. 1530"
         }
     ],
+    "id": "9b031dc7-f05b-4036-b214-e04e7126f737.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3217.02734375,12956.9580078125,250.194580078125,378.71875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3217.02734375,12956.9580078125,250.194580078125,378.71875"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9b031dc7-f05b-4036-b214-e04e7126f737.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
