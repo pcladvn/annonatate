@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 53
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "353",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:07:34.038Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:07:34.038Z",
-            "modified": "2022-03-21T11:07:37.295Z"
+            "modified": "2022-04-14T15:00:29.974Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "353\nMenander\nstandbeeld, 1ste eeuw v.C."
         }
     ],
+    "id": "137113b4-404f-49b1-ad82-fb8fdd88c19a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1170.0511474609375,13229.744140625,692.0028076171875,1043.7275390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1170.0511474609375,13229.744140625,692.0028076171875,1043.7275390625"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "137113b4-404f-49b1-ad82-fb8fdd88c19a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
