@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 75
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "182",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:01.874Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:01.874Z",
-            "modified": "2022-03-21T09:42:04.618Z"
+            "modified": "2022-04-14T13:12:14.258Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "182\nLePenseur\nbeeldhouwwerk Auguste Rodin, 1881"
         }
     ],
+    "id": "9d8a804e-f40f-4a86-a4a5-aea5a4ec2ae2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=208.00616455078125,15628.6083984375,1478.3838500976562,2257.9443359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=208.00616455078125,15628.6083984375,1478.3838500976562,2257.9443359375"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9d8a804e-f40f-4a86-a4a5-aea5a4ec2ae2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
