@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 22
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "230",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:01:14.919Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:01:14.919Z",
-            "modified": "2022-03-21T10:01:18.013Z"
+            "modified": "2022-04-14T13:47:06.995Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "230\nMusicerende engelen\nrechterpaneel van polyptiek De Aanbidding van het Lam Gods, Jan en Hubert Van Eyck, 1432"
         }
     ],
+    "id": "e7233563-d312-4438-91ca-0956249cdb10.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1077.7628173828125,4168.17041015625,1110.4385986328125,2452.20751953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1077.7628173828125,4168.17041015625,1110.4385986328125,2452.20751953125"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e7233563-d312-4438-91ca-0956249cdb10.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
