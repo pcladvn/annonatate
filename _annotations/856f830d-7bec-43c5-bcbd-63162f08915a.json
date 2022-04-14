@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 73
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "373",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:12:43.074Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:12:43.074Z",
-            "modified": "2022-03-21T11:12:45.284Z"
+            "modified": "2022-04-14T15:06:10.711Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "373\nDavid\nbeeldhouwwerk Michelangelo, 1501-4\nkopie op Piazza Michelangelo, Firenze \u2013 \nprentbriefkaart"
         }
     ],
+    "id": "856f830d-7bec-43c5-bcbd-63162f08915a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2527.998046875,17236.041015625,599.00439453125,962.3984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2527.998046875,17236.041015625,599.00439453125,962.3984375"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "856f830d-7bec-43c5-bcbd-63162f08915a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
