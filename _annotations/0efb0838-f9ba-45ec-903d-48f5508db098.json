@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 99
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "206",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:47:21.618Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:47:21.618Z",
-            "modified": "2022-03-21T09:47:23.908Z"
+            "modified": "2022-04-14T13:18:35.330Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "206\nLa Coulonche (hoofd van efebe)\nParthenonfries, Acropolis"
         }
     ],
+    "id": "0efb0838-f9ba-45ec-903d-48f5508db098.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=611.5942993164062,24986.7578125,952.2532348632812,744.98046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=611.5942993164062,24986.7578125,952.2532348632812,744.98046875"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0efb0838-f9ba-45ec-903d-48f5508db098.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
