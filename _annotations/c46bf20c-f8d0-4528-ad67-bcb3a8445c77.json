@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 15
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "122",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:22:26.037Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:22:26.037Z",
-            "modified": "2022-03-21T09:22:28.739Z"
+            "modified": "2022-04-14T12:40:33.703Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "122\nTondo\nbeeldhouwwerk Andrea della Robbia, c. 1490, Ospedale degli Innocenti, Firenze"
         }
     ],
+    "id": "c46bf20c-f8d0-4528-ad67-bcb3a8445c77.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=171.0364227294922,4166.2255859375,460.6319122314453,236.9931640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=171.0364227294922,4166.2255859375,460.6319122314453,236.9931640625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c46bf20c-f8d0-4528-ad67-bcb3a8445c77.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
