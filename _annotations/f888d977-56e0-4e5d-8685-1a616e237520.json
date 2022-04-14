@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 68
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "68",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:57:06.002Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:57:06.002Z",
-            "modified": "2022-03-21T08:57:08.723Z"
+            "modified": "2022-04-14T11:32:40.649Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "68\nDe vier apostelen \u2013 Johannes de Evangelist en Petrus (Die\nvier Apostel)\nschilderij Albrecht Du\u0308rer, 1526 \u2013 diptychon"
         }
     ],
+    "id": "f888d977-56e0-4e5d-8685-1a616e237520.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2.1743688583374023,11163.431640625,1033.6354455947876,3077.1484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2.1743688583374023,11163.431640625,1033.6354455947876,3077.1484375"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f888d977-56e0-4e5d-8685-1a616e237520.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
