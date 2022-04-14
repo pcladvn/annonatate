@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "78",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:59:19.177Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:59:19.177Z",
-            "modified": "2022-03-21T08:59:21.300Z"
+            "modified": "2022-04-14T11:34:52.334Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "78\nAnnunciazione\nschilderij Fra Angelico, c. 1438-45, \nSan Marco, cel 3, Firenze"
         }
     ],
+    "id": "63dd652a-eb65-434d-9aea-93efc764c117.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1024.7227783203125,16113.873046875,883.855712890625,1690.759765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1024.7227783203125,16113.873046875,883.855712890625,1690.759765625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "63dd652a-eb65-434d-9aea-93efc764c117.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
