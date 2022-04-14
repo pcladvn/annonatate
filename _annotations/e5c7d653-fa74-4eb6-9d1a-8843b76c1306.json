@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 81
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "188",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:42:50.714Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:42:50.714Z",
-            "modified": "2022-03-21T09:42:52.890Z"
+            "modified": "2022-04-14T13:15:08.827Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "188\nConstantijn Huygens\ngravure Abraham Blooteling naar Bernard Vaillant, c. 1660-1680"
         }
     ],
+    "id": "e5c7d653-fa74-4eb6-9d1a-8843b76c1306.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4426.44921875,18060.55078125,424.67138671875,502.7265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4426.44921875,18060.55078125,424.67138671875,502.7265625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e5c7d653-fa74-4eb6-9d1a-8843b76c1306.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
