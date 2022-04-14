@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 100
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "207",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:47:27.322Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:47:27.322Z",
-            "modified": "2022-03-21T09:47:29.469Z"
+            "modified": "2022-04-14T13:25:42.178Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "207\nVoorouders van Christus\nfresco Michelangelo, 1508-12\nSixtijnse kapel, plafond, Rome"
         }
     ],
+    "id": "490104e6-8bfe-489d-8a07-49c855d0f077.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1573.2822265625,24189.37890625,1739.5078125,1502.587890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1573.2822265625,24189.37890625,1739.5078125,1502.587890625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "490104e6-8bfe-489d-8a07-49c855d0f077.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
