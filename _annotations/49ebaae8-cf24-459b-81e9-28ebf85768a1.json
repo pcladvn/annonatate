@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 68
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "175",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:40:53.282Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:40:53.282Z",
-            "modified": "2022-03-21T09:40:57.982Z"
+            "modified": "2022-04-14T13:10:48.441Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "175\nHenrietta Anne, dochter van Charles I van Engeland\nschilderij naar Antoon van Dyck"
         }
     ],
+    "id": "49ebaae8-cf24-459b-81e9-28ebf85768a1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1123.427734375,14503.3369140625,816.7198486328125,1167.509765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1123.427734375,14503.3369140625,816.7198486328125,1167.509765625"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "49ebaae8-cf24-459b-81e9-28ebf85768a1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
