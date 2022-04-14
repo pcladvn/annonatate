@@ -11,25 +11,25 @@ order: 74
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-03-21T10:38:50.136Z",
+            "modified": "2022-04-14T14:01:32.347Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "282"
+            "value": "282\nAugust Strindberg\nbuste Agnes Kjellberg de Frumerie, 1895"
         }
     ],
     "id": "9c2ab57c-3187-4a75-b475-521b79fe2925.json",
     "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2082.234619140625,18412.556640625,230.1240234375,282.775390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2082.234619140625,18412.556640625,230.1240234375,282.775390625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
     "type": "Annotation"
 }
