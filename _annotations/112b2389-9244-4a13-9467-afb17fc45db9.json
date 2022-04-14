@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 46
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "254",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:09:25.028Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:09:25.028Z",
-            "modified": "2022-03-21T10:09:27.376Z"
+            "modified": "2022-04-14T13:52:45.620Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "254\nDe instelling van de Eucharistie\nfresco Fra Angelico, 1450, San Marco, Firenze"
         }
     ],
+    "id": "112b2389-9244-4a13-9467-afb17fc45db9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1350.1822509765625,11426.1455078125,890.5533447265625,540.3134765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1350.1822509765625,11426.1455078125,890.5533447265625,540.3134765625"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "112b2389-9244-4a13-9467-afb17fc45db9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
