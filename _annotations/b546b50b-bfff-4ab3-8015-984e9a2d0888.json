@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 82
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "381",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:29:25.695Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:29:25.695Z",
-            "modified": "2022-03-21T11:29:28.670Z"
+            "modified": "2022-04-14T15:07:37.912Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "381\nAan Adalbert Stifter\ntekening Heinrich Reifferscheid, 1901"
         }
     ],
+    "id": "b546b50b-bfff-4ab3-8015-984e9a2d0888.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3407.017333984375,17563.53515625,1258.785888671875,2095.033203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3407.017333984375,17563.53515625,1258.785888671875,2095.033203125"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b546b50b-bfff-4ab3-8015-984e9a2d0888.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
