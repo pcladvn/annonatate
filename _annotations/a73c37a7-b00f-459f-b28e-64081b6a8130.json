@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "6",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:45:42.966Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:45:42.966Z",
-            "modified": "2022-03-21T08:45:45.670Z"
+            "modified": "2022-04-14T10:58:51.272Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "6\nIgnudi\nfresco Michelangelo, 1508-12, \nSixtijnse Kapel, plafond, Rome"
         }
     ],
+    "id": "a73c37a7-b00f-459f-b28e-64081b6a8130.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2680.330078125,36.80116653442383,940.897216796875,1187.8548393249512"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2680.330078125,36.80116653442383,940.897216796875,1187.8548393249512"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a73c37a7-b00f-459f-b28e-64081b6a8130.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
