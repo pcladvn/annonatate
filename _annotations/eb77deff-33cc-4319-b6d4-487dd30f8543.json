@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 15
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "15",
-            "purpose": "identifying",
+            "created": "2022-03-21T08:47:18.375Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T08:47:18.375Z",
-            "modified": "2022-03-21T08:47:20.850Z"
+            "modified": "2022-04-14T11:02:09.096Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "15\no.a. Hugo Verriest ?\nfoto"
         }
     ],
+    "id": "eb77deff-33cc-4319-b6d4-487dd30f8543.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2479.309326171875,3561.763427734375,1264.401611328125,288.41259765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2479.309326171875,3561.763427734375,1264.401611328125,288.41259765625"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eb77deff-33cc-4319-b6d4-487dd30f8543.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
