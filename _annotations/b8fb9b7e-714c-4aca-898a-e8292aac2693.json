@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "109",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:15:04.741Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:15:04.741Z",
-            "modified": "2022-03-21T09:15:07.178Z"
+            "modified": "2022-04-14T12:36:49.219Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "109\nWinterlandschap\nschilderij Rembrandt van Rijn, 1646"
         }
     ],
+    "id": "b8fb9b7e-714c-4aca-898a-e8292aac2693.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1641.037841796875,88.39603424072266,2144.80126953125,1480.5609970092773"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1641.037841796875,88.39603424072266,2144.80126953125,1480.5609970092773"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b8fb9b7e-714c-4aca-898a-e8292aac2693.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
