@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 40
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "340",
-            "purpose": "identifying",
+            "created": "2022-03-21T11:03:52.646Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T11:03:52.646Z",
-            "modified": "2022-03-21T11:03:56.075Z"
+            "modified": "2022-04-14T14:55:40.620Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "340\nGilbert Keith Chesterton \ntekening Alfred Priest, c. 1909"
         }
     ],
+    "id": "4f8ca4fb-ec1a-410e-bfe5-ba87658731cf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=134.93031311035156,10597.1826171875,933.9531097412109,954.7607421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=134.93031311035156,10597.1826171875,933.9531097412109,954.7607421875"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4f8ca4fb-ec1a-410e-bfe5-ba87658731cf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
