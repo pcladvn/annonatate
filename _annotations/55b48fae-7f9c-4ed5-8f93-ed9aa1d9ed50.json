@@ -3,33 +3,33 @@ canvas: "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
 order: 21
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "321",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:53:17.088Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:53:17.088Z",
-            "modified": "2022-03-21T10:53:19.503Z"
+            "modified": "2022-04-14T14:45:14.669Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "321\nJoost van den Vondel\ngravure Jan Lievens, c. 1727"
         }
     ],
+    "id": "55b48fae-7f9c-4ed5-8f93-ed9aa1d9ed50.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3984.284912109375,5598.55712890625,761.118896484375,701.30517578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3984.284912109375,5598.55712890625,761.118896484375,701.30517578125"
+        },
+        "source": "http://49ab30c4-b83d-41a2-9edc-a772f8086600"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "55b48fae-7f9c-4ed5-8f93-ed9aa1d9ed50.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
