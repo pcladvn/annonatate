@@ -3,33 +3,33 @@ canvas: "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "110",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:15:10.629Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:15:10.629Z",
-            "modified": "2022-03-21T09:15:13.366Z"
+            "modified": "2022-04-14T12:37:26.840Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "110\nPoort in Abdijkerk van Saint-Ouen, Rouen\nprentbriefkaart Neurdein et Cie (ND Phot.), c.1907-1914"
         }
     ],
+    "id": "ecc22865-7f8c-498d-909f-c8f07174e658.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3784.169921875,114.48665618896484,1087.2060546875,1537.7499160766602"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3784.169921875,114.48665618896484,1087.2060546875,1537.7499160766602"
+        },
+        "source": "http://ec3f0cf7-9bd2-49cf-831c-e7cddaead9f6"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ecc22865-7f8c-498d-909f-c8f07174e658.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
