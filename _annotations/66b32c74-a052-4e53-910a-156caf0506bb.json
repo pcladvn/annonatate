@@ -3,33 +3,33 @@ canvas: "http://1dac03aa-b522-4fa3-9034-288f339632de"
 order: 107
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "107",
-            "purpose": "identifying",
+            "created": "2022-03-21T09:03:27.185Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T09:03:27.185Z",
-            "modified": "2022-03-21T09:03:29.839Z"
+            "modified": "2022-04-14T11:46:27.774Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "107\nJezus draagt het kruis\nprentbriefkaart Oberammergau Passionsspiele \u2013 serie 2, 1922"
         }
     ],
+    "id": "66b32c74-a052-4e53-910a-156caf0506bb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3856.521728515625,25081.529296875,1113.217041015625,1484.857421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3856.521728515625,25081.529296875,1113.217041015625,1484.857421875"
+        },
+        "source": "http://1dac03aa-b522-4fa3-9034-288f339632de"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "66b32c74-a052-4e53-910a-156caf0506bb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
