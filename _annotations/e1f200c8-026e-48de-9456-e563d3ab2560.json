@@ -3,33 +3,33 @@ canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
 order: 34
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "242",
-            "purpose": "identifying",
+            "created": "2022-03-21T10:07:10.100Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T10:07:10.100Z",
-            "modified": "2022-03-21T10:07:12.234Z"
+            "modified": "2022-04-14T13:49:49.682Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "242\nIsenheimer Altar\ntriptiek Matthias Gru\u0308newald, c. 1510-15"
         }
     ],
+    "id": "e1f200c8-026e-48de-9456-e563d3ab2560.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=609.7457275390625,8620.87109375,2031.8004150390625,468.25"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=609.7457275390625,8620.87109375,2031.8004150390625,468.25"
+        },
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e1f200c8-026e-48de-9456-e563d3ab2560.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
