@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 37
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "501",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:02:56.718Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:02:56.718Z",
-            "modified": "2022-03-21T14:02:59.505Z"
+            "modified": "2022-04-17T13:07:00.000Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "501\nJohannes\nbeeldhouwwerk Cyriel\nVerschaeve, [1924] of marmeren\nversie Joris van de Moortele / Cyriel Verschaeve, 1925"
         }
     ],
+    "id": "48b0c5eb-2cdd-4540-ab22-d4b91cc63817.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2923.76611328125,7320.9384765625,818.81201171875,991.2216796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2923.76611328125,7320.9384765625,818.81201171875,991.2216796875"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "48b0c5eb-2cdd-4540-ab22-d4b91cc63817.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
