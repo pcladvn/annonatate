@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 53
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "517",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:06:04.500Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:06:04.500Z",
-            "modified": "2022-03-21T14:06:07.015Z"
+            "modified": "2022-04-17T13:12:06.556Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "517\nLeeuw, Tierstudie, Zoo van Keulen\nfoto A. J. W. de Veer \"L\u00f6we\" - \nprentbriefkaart"
         }
     ],
+    "id": "50432f01-9895-4e00-8486-a94a70e8c6fb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2803.233154296875,10645.193359375,1359.212158203125,789.9580078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2803.233154296875,10645.193359375,1359.212158203125,789.9580078125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "50432f01-9895-4e00-8486-a94a70e8c6fb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
