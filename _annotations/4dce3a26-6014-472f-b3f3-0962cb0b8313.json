@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 73
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "537",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:08:50.467Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:08:50.467Z",
-            "modified": "2022-03-21T14:08:53.641Z"
+            "modified": "2022-04-17T13:16:33.861Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "537\nChristus met jongeren in Emmaus\nschilderij Paolo Veronese, c. 1560"
         }
     ],
+    "id": "4dce3a26-6014-472f-b3f3-0962cb0b8313.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2773.25537109375,16371.609375,544.39501953125,591.56640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2773.25537109375,16371.609375,544.39501953125,591.56640625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4dce3a26-6014-472f-b3f3-0962cb0b8313.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
