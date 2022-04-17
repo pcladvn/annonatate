@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 31
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "422",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:55:31.451Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:55:31.451Z",
-            "modified": "2022-03-21T12:55:34.101Z"
+            "modified": "2022-04-17T12:26:07.332Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "422\nDe Luisteraar naar de Schone Muziek der Wereld\nbeeldhouwwerk Cyriel Verschaeve, 1929"
         }
     ],
+    "id": "1c0a9646-3043-498f-8185-cd40d3b9e79d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1140.4617919921875,10203.0615234375,852.52099609375,1232.2529296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1140.4617919921875,10203.0615234375,852.52099609375,1232.2529296875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1c0a9646-3043-498f-8185-cd40d3b9e79d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
