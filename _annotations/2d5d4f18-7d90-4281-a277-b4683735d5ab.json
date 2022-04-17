@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 27
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "491",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:00:30.088Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:00:30.088Z",
-            "modified": "2022-03-21T14:00:32.424Z"
+            "modified": "2022-04-17T13:04:09.960Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "491\nOdysseus en Polyphemus"
         }
     ],
+    "id": "2d5d4f18-7d90-4281-a277-b4683735d5ab.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3241.388916015625,5951.5166015625,855.892333984375,577.53955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3241.388916015625,5951.5166015625,855.892333984375,577.53955078125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2d5d4f18-7d90-4281-a277-b4683735d5ab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
