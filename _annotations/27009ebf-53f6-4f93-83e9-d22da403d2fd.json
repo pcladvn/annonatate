@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 68
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "459",
-            "purpose": "identifying",
+            "created": "2022-03-21T13:05:38.700Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T13:05:38.700Z",
-            "modified": "2022-03-21T13:05:40.889Z"
+            "modified": "2022-04-17T12:48:07.999Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "459\nPeter Ilich Tchaikovsky\nschilderij H. Serov (Seroff) \u2013 prentbriefkaart F.A. Ackermanns Kunstverlag, serie 160 (12 Komponisten)"
         }
     ],
+    "id": "27009ebf-53f6-4f93-83e9-d22da403d2fd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=19.68029022216797,22153.541015625,1109.8669509887695,1344.529296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=19.68029022216797,22153.541015625,1109.8669509887695,1344.529296875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "27009ebf-53f6-4f93-83e9-d22da403d2fd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
