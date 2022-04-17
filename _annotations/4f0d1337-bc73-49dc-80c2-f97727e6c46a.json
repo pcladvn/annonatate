@@ -11,25 +11,25 @@ order: 15
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-03-21T13:58:56.357Z",
+            "modified": "2022-04-17T12:56:37.712Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "479"
+            "value": "479\nLe Penseur\nschilderij Auguste Rodin, 1881"
         }
     ],
     "id": "4f0d1337-bc73-49dc-80c2-f97727e6c46a.json",
     "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=552.3213500976562,2116.572265625,626.7029418945312,1251.79052734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=552.3213500976562,2116.572265625,626.7029418945312,1251.79052734375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
     "type": "Annotation"
 }
