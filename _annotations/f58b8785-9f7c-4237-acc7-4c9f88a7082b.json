@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 30
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "494",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:00:55.085Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:00:55.085Z",
-            "modified": "2022-03-21T14:00:57.040Z"
+            "modified": "2022-04-17T13:05:52.156Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "494\nDe Bronstijd (L\u2019A\u0302ge d\u2019airain) \nbeeldhouwwerk Auguste Rodin, 1877 \u2013 voorzijde"
         }
     ],
+    "id": "f58b8785-9f7c-4237-acc7-4c9f88a7082b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2099.775146484375,5935.5361328125,522.880859375,1453.6142578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2099.775146484375,5935.5361328125,522.880859375,1453.6142578125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f58b8785-9f7c-4237-acc7-4c9f88a7082b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
