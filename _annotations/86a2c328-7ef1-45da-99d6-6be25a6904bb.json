@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "404",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:53:06.580Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:53:06.580Z",
-            "modified": "2022-03-21T12:53:09.241Z"
+            "modified": "2022-04-17T12:17:05.129Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "404\nMusicerende engel met tamboerijn\nschilderij Fra Angelico, c. 1433, voor Tabernacolo dei Linaioli (Lorenzo Ghiberti)"
         }
     ],
+    "id": "86a2c328-7ef1-45da-99d6-6be25a6904bb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2353.16259765625,3835.325927734375,454.23486328125,1026.014892578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2353.16259765625,3835.325927734375,454.23486328125,1026.014892578125"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86a2c328-7ef1-45da-99d6-6be25a6904bb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
