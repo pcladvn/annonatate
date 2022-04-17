@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 49
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "513",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:05:28.861Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:05:28.861Z",
-            "modified": "2022-03-21T14:05:31.373Z"
+            "modified": "2022-04-17T13:11:00.208Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "513\nThe\u0301a\u0302tre National de l\u2019Opera\nprentbriefkaart \u201c27. The\u0301a\u0302tre National de l\u2019Opera \u2013 L\u2019Escalier d\u2019Honneur \u2013 C.M.\u201d, Parijs"
         }
     ],
+    "id": "a3a9fffa-bdac-4d62-bcfd-31891904ba66.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3376.333740234375,9223.9541015625,916.735595703125,1385.5791015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3376.333740234375,9223.9541015625,916.735595703125,1385.5791015625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a3a9fffa-bdac-4d62-bcfd-31891904ba66.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
