@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "393",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:51:46.749Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:51:46.749Z",
-            "modified": "2022-03-21T12:51:49.724Z"
+            "modified": "2022-04-17T12:00:24.363Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "393\nJongedame met een mof, \nFran\u00e7ois Boucher, c. 1725-1750"
         }
     ],
+    "id": "032c52ee-f56e-4a9e-bf89-80c6b913e4cc.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=878.2752685546875,29.044036865234375,781.9560546875,798.8973083496094"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=878.2752685546875,29.044036865234375,781.9560546875,798.8973083496094"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "032c52ee-f56e-4a9e-bf89-80c6b913e4cc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
