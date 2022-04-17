@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 43
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "507",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:03:53.557Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:03:53.557Z",
-            "modified": "2022-03-21T14:03:56.046Z"
+            "modified": "2022-04-17T13:07:52.967Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "507\n[De geboorte van Christus]"
         }
     ],
+    "id": "c6d60ffe-0a43-426d-b1bd-cb5dcab16833.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2596.0517578125,8261.3193359375,1475.305908203125,990.4521484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2596.0517578125,8261.3193359375,1475.305908203125,990.4521484375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c6d60ffe-0a43-426d-b1bd-cb5dcab16833.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
