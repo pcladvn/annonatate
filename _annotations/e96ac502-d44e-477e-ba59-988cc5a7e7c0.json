@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 69
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "533",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:08:21.627Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:08:21.627Z",
-            "modified": "2022-03-21T14:08:24.661Z"
+            "modified": "2022-04-17T13:15:42.366Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "533\nPortofino\n\u201cSaluti da Portofino \u2013 Panorama\u201d \u2013 prentbriefkaart (?)"
         }
     ],
+    "id": "e96ac502-d44e-477e-ba59-988cc5a7e7c0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2737.15185546875,15433.1826171875,1682.6943359375,936.4150390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2737.15185546875,15433.1826171875,1682.6943359375,936.4150390625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e96ac502-d44e-477e-ba59-988cc5a7e7c0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
