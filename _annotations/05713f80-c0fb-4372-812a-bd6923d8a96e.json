@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 26
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "417",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:54:55.956Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:54:55.956Z",
-            "modified": "2022-03-21T12:54:59.112Z"
+            "modified": "2022-04-17T12:24:30.399Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "417\nAartshertogin Isabella en Sint-Elisabeth van Hongarije\nschilderij Peter Paul Rubens (rechterpaneel van triptiek van Sint-Ildefonso), 1630-32"
         }
     ],
+    "id": "05713f80-c0fb-4372-812a-bd6923d8a96e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1130.59130859375,7625.9951171875,849.00927734375,2592.869140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1130.59130859375,7625.9951171875,849.00927734375,2592.869140625"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "05713f80-c0fb-4372-812a-bd6923d8a96e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
