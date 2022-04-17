@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 91
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "555",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:11:31.881Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:11:31.881Z",
-            "modified": "2022-03-21T14:11:36.229Z"
+            "modified": "2022-04-17T13:21:38.387Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "555\n[Sint-Franciscus]\nillustratie Moritz von Schwind in\nKatalog zur Ausstellung deutscher Kunst aus der Zeit von 1775\u20131875 in der Ko\u0308niglichen Nationalgalerie Berlin, Mu\u0308nchen, 1906"
         }
     ],
+    "id": "0d1f368e-ba32-47c7-bd72-c9542601d14f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1598.0654296875,20331.080078125,1299.218505859375,1109.1171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1598.0654296875,20331.080078125,1299.218505859375,1109.1171875"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0d1f368e-ba32-47c7-bd72-c9542601d14f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
