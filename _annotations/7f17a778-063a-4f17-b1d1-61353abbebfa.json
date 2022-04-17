@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 96
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "560",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:12:09.712Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:12:09.712Z",
-            "modified": "2022-03-21T14:12:13.201Z"
+            "modified": "2022-04-17T13:22:18.053Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "560\nPortret van He\u0301le\u0300ne Fourment\nschilderij Peter Paul Rubens, 1630"
         }
     ],
+    "id": "7f17a778-063a-4f17-b1d1-61353abbebfa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=131.67189025878906,20336.619140625,1496.9478607177734,3303.9140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=131.67189025878906,20336.619140625,1496.9478607177734,3303.9140625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7f17a778-063a-4f17-b1d1-61353abbebfa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
