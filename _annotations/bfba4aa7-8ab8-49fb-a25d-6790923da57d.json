@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 56
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "520",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:06:28.036Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:06:28.036Z",
-            "modified": "2022-03-21T14:06:32.270Z"
+            "modified": "2022-04-17T13:13:03.145Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "520\nHeilige Clara van Assisi\nschilderij Fritz Kunz"
         }
     ],
+    "id": "bfba4aa7-8ab8-49fb-a25d-6790923da57d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1020.010986328125,11198.34765625,1357.377197265625,1092.400390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1020.010986328125,11198.34765625,1357.377197265625,1092.400390625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bfba4aa7-8ab8-49fb-a25d-6790923da57d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
