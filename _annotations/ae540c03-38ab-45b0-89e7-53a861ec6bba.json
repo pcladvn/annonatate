@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 83
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "547",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:10:18.746Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:10:18.746Z",
-            "modified": "2022-03-21T14:10:21.444Z"
+            "modified": "2022-04-17T13:19:08.479Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "547\nEnrico Caruso\nfoto"
         }
     ],
+    "id": "ae540c03-38ab-45b0-89e7-53a861ec6bba.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4449.70556640625,17965.61328125,381.36669921875,520.720703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4449.70556640625,17965.61328125,381.36669921875,520.720703125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ae540c03-38ab-45b0-89e7-53a861ec6bba.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
