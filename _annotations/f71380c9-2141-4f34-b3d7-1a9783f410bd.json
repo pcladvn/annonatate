@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "473",
-            "purpose": "identifying",
+            "created": "2022-03-21T13:52:45.532Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T13:52:45.532Z",
-            "modified": "2022-03-21T13:52:48.164Z"
+            "modified": "2022-04-17T12:55:08.048Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "473\nLa pens\u00e9e \nbeeldhouwwerk Auguste Rodin, 1896"
         }
     ],
+    "id": "f71380c9-2141-4f34-b3d7-1a9783f410bd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1867.498779296875,1298.028076171875,758.91552734375,771.137451171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1867.498779296875,1298.028076171875,758.91552734375,771.137451171875"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f71380c9-2141-4f34-b3d7-1a9783f410bd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
