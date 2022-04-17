@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 36
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "427",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:56:13.359Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:56:13.359Z",
-            "modified": "2022-03-21T12:56:16.205Z"
+            "modified": "2022-04-17T12:28:11.189Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "427\nVexillaRegis(ChristusKoning, Kruisstandaarddrager, Christus Triomphans)"
         }
     ],
+    "id": "cf229eba-ccdb-4f9c-8922-13394afe8752.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3973.545654296875,11608.4287109375,490.395263671875,768.7158203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3973.545654296875,11608.4287109375,490.395263671875,768.7158203125"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cf229eba-ccdb-4f9c-8922-13394afe8752.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
