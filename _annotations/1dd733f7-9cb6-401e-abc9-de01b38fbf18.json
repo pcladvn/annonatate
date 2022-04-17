@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 71
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "462",
-            "purpose": "identifying",
+            "created": "2022-03-21T13:06:20.242Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T13:06:20.242Z",
-            "modified": "2022-03-21T13:06:22.696Z"
+            "modified": "2022-04-17T12:48:57.171Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "462\nDe scheiding van aarde en water\nfresco Michelangelo, 1508-12,\nSixtijnse Kapel, plafond, Rome"
         }
     ],
+    "id": "1dd733f7-9cb6-401e-abc9-de01b38fbf18.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=99.59296417236328,23501.158203125,964.1263961791992,514.13671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=99.59296417236328,23501.158203125,964.1263961791992,514.13671875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1dd733f7-9cb6-401e-abc9-de01b38fbf18.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
