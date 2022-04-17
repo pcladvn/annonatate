@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 94
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "558",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:11:55.104Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:11:55.104Z",
-            "modified": "2022-03-21T14:11:57.893Z"
+            "modified": "2022-04-17T13:21:50.621Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "558\nHet echtpaar (Das ungleiche Paar)\nschilderij Wilhelm Leibl, 1876/77"
         }
     ],
+    "id": "94262f8a-7a4d-49d8-8f73-9dc757d0549d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2728.873046875,20805.88671875,1344.091064453125,1918.955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2728.873046875,20805.88671875,1344.091064453125,1918.955078125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "94262f8a-7a4d-49d8-8f73-9dc757d0549d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
