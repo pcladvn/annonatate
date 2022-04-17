@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "475",
-            "purpose": "identifying",
+            "created": "2022-03-21T13:52:58.164Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T13:52:58.164Z",
-            "modified": "2022-03-21T13:53:01.112Z"
+            "modified": "2022-04-17T12:55:56.575Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "475\nMargarete en Faust\nsilhouettekening Paul Konewka (Gestalten aus \u201cFaust\u201d), 1864, Fr. A. Ackermann\u2019s Kunstverlag, Mu\u0308nchen \u2013 fragment prentbriefkaart"
         }
     ],
+    "id": "cb7b0df8-e25c-471d-904b-2bfad3e0dd8e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3865.35986328125,1155.3892822265625,867.3154296875,1056.1783447265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3865.35986328125,1155.3892822265625,867.3154296875,1056.1783447265625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cb7b0df8-e25c-471d-904b-2bfad3e0dd8e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
