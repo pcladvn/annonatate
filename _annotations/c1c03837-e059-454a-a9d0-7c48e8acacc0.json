@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 60
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "524",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:07:03.953Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:07:03.953Z",
-            "modified": "2022-03-21T14:07:06.336Z"
+            "modified": "2022-04-17T13:13:56.330Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "524\nZomeravond (Afscheid)\n(Sommerabend (Abschied))\nschilderij Ludwig von Herterich, c. 1895"
         }
     ],
+    "id": "c1c03837-e059-454a-a9d0-7c48e8acacc0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=203.98069763183594,12283.8525390625,1747.145767211914,2134.7177734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=203.98069763183594,12283.8525390625,1747.145767211914,2134.7177734375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1c03837-e059-454a-a9d0-7c48e8acacc0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
