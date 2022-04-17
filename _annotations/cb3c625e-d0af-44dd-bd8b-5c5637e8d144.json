@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "509",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:04:11.526Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:04:11.526Z",
-            "modified": "2022-03-21T14:04:13.870Z"
+            "modified": "2022-04-17T13:09:02.883Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "509\nDe val van Icarus foto\ntekening Peter Paul Rubens, 1637"
         }
     ],
+    "id": "cb3c625e-d0af-44dd-bd8b-5c5637e8d144.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=124.02008819580078,9138.5478515625,699.6997604370117,941.4462890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=124.02008819580078,9138.5478515625,699.6997604370117,941.4462890625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cb3c625e-d0af-44dd-bd8b-5c5637e8d144.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
