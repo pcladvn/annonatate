@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 25
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "489",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:00:15.416Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:00:15.416Z",
-            "modified": "2022-03-21T14:00:18.042Z"
+            "modified": "2022-04-17T12:58:34.314Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "489\nJonge Charles Dickens\ngravure"
         }
     ],
+    "id": "6bab5d58-2a97-45d5-a9ba-08dc71406544.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2610.759521484375,5909.849609375,417.262939453125,398.412109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2610.759521484375,5909.849609375,417.262939453125,398.412109375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6bab5d58-2a97-45d5-a9ba-08dc71406544.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
