@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 67
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "531",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:08:01.163Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:08:01.163Z",
-            "modified": "2022-03-21T14:08:03.415Z"
+            "modified": "2022-04-17T13:15:28.128Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "531\nRome, zicht van Monte Pincio op Sint-Pietersbasiliek\nprentbriefkaart?"
         }
     ],
+    "id": "d86a83f6-62a0-41c2-b7ff-02e49ea0a4cd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3314.839111328125,14760.619140625,1470.127197265625,756.962890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3314.839111328125,14760.619140625,1470.127197265625,756.962890625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d86a83f6-62a0-41c2-b7ff-02e49ea0a4cd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
