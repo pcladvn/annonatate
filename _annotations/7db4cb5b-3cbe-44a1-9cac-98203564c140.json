@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 70
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "534",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:08:27.490Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:08:27.490Z",
-            "modified": "2022-03-21T14:08:29.897Z"
+            "modified": "2022-04-17T13:15:55.467Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "534\nJan Oskar de Gruyter\nfoto"
         }
     ],
+    "id": "7db4cb5b-3cbe-44a1-9cac-98203564c140.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4386.7021484375,15513.498046875,486.7177734375,804.3115234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4386.7021484375,15513.498046875,486.7177734375,804.3115234375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7db4cb5b-3cbe-44a1-9cac-98203564c140.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
