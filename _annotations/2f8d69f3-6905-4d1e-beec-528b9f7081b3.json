@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 85
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "549",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:10:39.308Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:10:39.308Z",
-            "modified": "2022-03-21T14:10:41.854Z"
+            "modified": "2022-04-17T13:19:33.078Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "549\nNoli me tangere\nfresco Fra Angelico, 1438-39, Conevnto di San Marco, Firenze"
         }
     ],
+    "id": "2f8d69f3-6905-4d1e-beec-528b9f7081b3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2587.52197265625,18282.705078125,720.561767578125,1016.857421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2587.52197265625,18282.705078125,720.561767578125,1016.857421875"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2f8d69f3-6905-4d1e-beec-528b9f7081b3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
