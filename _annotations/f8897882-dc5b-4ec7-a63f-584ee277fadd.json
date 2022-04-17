@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 32
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "496",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:01:14.631Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:01:14.631Z",
-            "modified": "2022-03-21T14:01:19.011Z"
+            "modified": "2022-04-17T13:06:20.889Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "496\nJupiter en Semele\nschilderij Peter Paul Rubens, 1636"
         }
     ],
+    "id": "f8897882-dc5b-4ec7-a63f-584ee277fadd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2986.59228515625,6502.65869140625,1446.57080078125,923.3056640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2986.59228515625,6502.65869140625,1446.57080078125,923.3056640625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f8897882-dc5b-4ec7-a63f-584ee277fadd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
