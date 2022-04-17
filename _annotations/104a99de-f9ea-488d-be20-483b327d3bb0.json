@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 62
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "526",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:07:19.323Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:07:19.323Z",
-            "modified": "2022-03-21T14:07:22.386Z"
+            "modified": "2022-04-17T13:14:37.946Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "526\nSint-Barbara\nschilderij Palma Vecchio, middenpaneel polyptiek van Sint-Barbara, 1524-25 (Santa Maria Formosa, Venetie\u0308)"
         }
     ],
+    "id": "104a99de-f9ea-488d-be20-483b327d3bb0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2607.267578125,12436.9384765625,1080.06005859375,2483.572265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2607.267578125,12436.9384765625,1080.06005859375,2483.572265625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "104a99de-f9ea-488d-be20-483b327d3bb0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
