@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 77
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "541",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:09:34.962Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:09:34.962Z",
-            "modified": "2022-03-21T14:09:37.356Z"
+            "modified": "2022-04-17T13:17:23.712Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "541\nDe geboorte van Venus\nschilderij Sandro Botticelli, 1483-85"
         }
     ],
+    "id": "e48ea790-51e4-4ab3-908c-b603533ae657.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2372.94921875,16912.66015625,946.180908203125,1392.08984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2372.94921875,16912.66015625,946.180908203125,1392.08984375"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e48ea790-51e4-4ab3-908c-b603533ae657.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
