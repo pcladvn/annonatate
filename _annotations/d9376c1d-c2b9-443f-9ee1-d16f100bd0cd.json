@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "394",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:51:55.101Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:51:55.101Z",
-            "modified": "2022-03-21T12:51:57.977Z"
+            "modified": "2022-04-17T12:00:37.674Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "394\nDie Nibelungen: Siegfried (1924)\nfilmposter"
         }
     ],
+    "id": "d9376c1d-c2b9-443f-9ee1-d16f100bd0cd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=65.75846862792969,1175.640869140625,298.5365753173828,630.1014404296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=65.75846862792969,1175.640869140625,298.5365753173828,630.1014404296875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d9376c1d-c2b9-443f-9ee1-d16f100bd0cd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
