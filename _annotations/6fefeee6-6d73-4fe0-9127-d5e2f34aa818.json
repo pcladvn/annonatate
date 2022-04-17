@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 23
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "414",
-            "purpose": "identifying",
+            "created": "2022-03-21T12:54:33.868Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T12:54:33.868Z",
-            "modified": "2022-03-21T12:54:37.080Z"
+            "modified": "2022-04-17T12:22:21.012Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "414\nPiazza del populo, Roma\nprentbriefkaart"
         }
     ],
+    "id": "6fefeee6-6d73-4fe0-9127-d5e2f34aa818.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=25.70701789855957,7516.23291015625,1114.090467453003,1203.87451171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=25.70701789855957,7516.23291015625,1114.090467453003,1203.87451171875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6fefeee6-6d73-4fe0-9127-d5e2f34aa818.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
