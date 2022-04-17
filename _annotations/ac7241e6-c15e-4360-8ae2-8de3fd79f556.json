@@ -3,33 +3,33 @@ canvas: "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
 order: 62
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "453",
-            "purpose": "identifying",
+            "created": "2022-03-21T13:04:56.548Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T13:04:56.548Z",
-            "modified": "2022-03-21T13:04:59.271Z"
+            "modified": "2022-04-17T12:44:06.720Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "453\nFrederik II van Pruisen"
         }
     ],
+    "id": "ac7241e6-c15e-4360-8ae2-8de3fd79f556.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1166.65673828125,19601.529296875,699.337646484375,1141.1875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1166.65673828125,19601.529296875,699.337646484375,1141.1875"
+        },
+        "source": "http://90b6c3e5-5c5c-4131-8ea3-a9e8d6ec92e9"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ac7241e6-c15e-4360-8ae2-8de3fd79f556.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
