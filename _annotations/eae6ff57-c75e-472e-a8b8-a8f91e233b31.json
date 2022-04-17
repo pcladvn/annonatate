@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 51
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "515",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:05:45.220Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:05:45.220Z",
-            "modified": "2022-03-21T14:05:48.298Z"
+            "modified": "2022-04-17T13:11:32.289Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "515\nDe opdracht van de Heilige Maagd Maria in de tempel (Maria Presentatie (Presentazione di Maria al Tempio)\nschilderij Titiaan, 1534-38"
         }
     ],
+    "id": "eae6ff57-c75e-472e-a8b8-a8f91e233b31.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=239.75877380371094,9830.87890625,3097.778335571289,1393.5400390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=239.75877380371094,9830.87890625,3097.778335571289,1393.5400390625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eae6ff57-c75e-472e-a8b8-a8f91e233b31.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
