@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "542",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:09:41.938Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:09:41.938Z",
-            "modified": "2022-03-21T14:09:44.286Z"
+            "modified": "2022-04-17T13:18:13.499Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "542\nSergei Rachmaninov\nfoto"
         }
     ],
+    "id": "d97d1c8b-4249-4644-adac-9941ca34c45d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3284.003173828125,17266.208984375,320.256591796875,429.189453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3284.003173828125,17266.208984375,320.256591796875,429.189453125"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d97d1c8b-4249-4644-adac-9941ca34c45d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
