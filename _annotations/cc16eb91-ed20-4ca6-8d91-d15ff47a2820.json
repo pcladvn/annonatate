@@ -3,33 +3,33 @@ canvas: "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
 order: 54
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "518",
-            "purpose": "identifying",
+            "created": "2022-03-21T14:06:10.700Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T14:06:10.700Z",
-            "modified": "2022-03-21T14:06:14.754Z"
+            "modified": "2022-04-17T13:12:30.169Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "518\nVexilla Regis (Christus Koning, Kruisstandaarddrager,\nChristus Triomphans)\nbeeldhouwwerk Cyriel\nprentbriefkaart Verschaeve, 1935"
         }
     ],
+    "id": "cc16eb91-ed20-4ca6-8d91-d15ff47a2820.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4173.03955078125,10209.1083984375,600.29638671875,1301.1806640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4173.03955078125,10209.1083984375,600.29638671875,1301.1806640625"
+        },
+        "source": "http://ccd284e7-ed5a-409e-887d-1b56115d4059"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cc16eb91-ed20-4ca6-8d91-d15ff47a2820.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
