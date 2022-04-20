@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 27
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "677",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:00:51.658Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:00:51.658Z",
-            "modified": "2022-04-01T08:00:55.094Z"
+            "modified": "2022-04-20T13:06:47.545Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "677\n\u201cYper \u2013 Liefdeplaats en St. Martijnskerk\u201d\nprentbriefkaart, Ern. Thill, Brussel"
         }
     ],
+    "id": "3a056e22-d733-4fa2-a41f-1c86b75b272b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2699.252685546875,6290.77685546875,1223.93310546875,860.73828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2699.252685546875,6290.77685546875,1223.93310546875,860.73828125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3a056e22-d733-4fa2-a41f-1c86b75b272b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
