@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 72
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "637",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:17:00.878Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:17:00.878Z",
-            "modified": "2022-03-21T15:17:03.585Z"
+            "modified": "2022-04-20T12:35:55.237Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "637\nPortret van een man\nschilderij Tintoretto, 1585"
         }
     ],
+    "id": "f555a525-94f7-47d7-b400-485fa37d4695.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3041.088134765625,16988.375,1568.136962890625,1972.037109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3041.088134765625,16988.375,1568.136962890625,1972.037109375"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f555a525-94f7-47d7-b400-485fa37d4695.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
