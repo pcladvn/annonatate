@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 56
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "621",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:14:54.392Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:14:54.392Z",
-            "modified": "2022-03-21T15:14:56.788Z"
+            "modified": "2022-04-20T08:38:00.318Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "621\nDe dood van Caesar (Ca\u0308sars Tod)\nschilderij Max Klinger, c. 1890"
         }
     ],
+    "id": "86104ddf-02ea-462c-8b07-717944deaf09.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1249.603515625,14172.5224609375,1328.979248046875,1047.8779296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1249.603515625,14172.5224609375,1328.979248046875,1047.8779296875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86104ddf-02ea-462c-8b07-717944deaf09.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
