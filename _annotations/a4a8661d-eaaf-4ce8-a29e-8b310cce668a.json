@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 83
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "648",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:22:06.171Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:22:06.171Z",
-            "modified": "2022-03-21T15:22:08.372Z"
+            "modified": "2022-04-20T12:38:06.869Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "648\nLavinia met fruitschaal\n(Lavinia con cesto di frutta) schilderij Titiaan, 1555"
         }
     ],
+    "id": "a4a8661d-eaaf-4ce8-a29e-8b310cce668a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=229.01803588867188,22253.865234375,1500.7407531738281,1892.61328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=229.01803588867188,22253.865234375,1500.7407531738281,1892.61328125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a4a8661d-eaaf-4ce8-a29e-8b310cce668a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
