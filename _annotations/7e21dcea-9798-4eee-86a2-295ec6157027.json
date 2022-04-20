@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 32
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "597",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:06:37.438Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:06:37.438Z",
-            "modified": "2022-03-21T15:06:40.048Z"
+            "modified": "2022-04-20T08:27:12.351Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "597\nChristus\nschilderij Emanuela Seifertov\u00e1\nprentbriefkaart, Kunstverlag Dr. A. Faulhaber"
         }
     ],
+    "id": "7e21dcea-9798-4eee-86a2-295ec6157027.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2200.902099609375,8156.19921875,901.51220703125,1065.6298828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2200.902099609375,8156.19921875,901.51220703125,1065.6298828125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7e21dcea-9798-4eee-86a2-295ec6157027.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
