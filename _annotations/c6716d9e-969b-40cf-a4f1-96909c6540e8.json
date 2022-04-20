@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 40
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "690",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:02:40.960Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:02:40.960Z",
-            "modified": "2022-04-01T08:02:43.754Z"
+            "modified": "2022-04-20T13:11:26.037Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "690\nCherubini (Putti)\nschilderij Raffaello Sanzio (Rafael), c. 1513-14 \u2013 detail van Madonna\nSistina"
         }
     ],
+    "id": "c6716d9e-969b-40cf-a4f1-96909c6540e8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1181.0186767578125,8508.8310546875,1471.9351806640625,819.1298828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1181.0186767578125,8508.8310546875,1471.9351806640625,819.1298828125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c6716d9e-969b-40cf-a4f1-96909c6540e8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
