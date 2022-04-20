@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 43
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "608",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:10:02.459Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:10:02.459Z",
-            "modified": "2022-03-21T15:10:04.818Z"
+            "modified": "2022-04-20T08:30:14.334Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "608\nRichard Wagner\nsilhouettekening Willi Bithorn, 1938 (?) \u2013 Richard Wagner componeert de Pilgerchor [uit Tannhau\u0308ser]"
         }
     ],
+    "id": "5b573636-1b5a-4dad-a93c-660fee8a5b89.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3556.634521484375,10669.5869140625,1059.184814453125,851.5673828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3556.634521484375,10669.5869140625,1059.184814453125,851.5673828125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5b573636-1b5a-4dad-a93c-660fee8a5b89.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
