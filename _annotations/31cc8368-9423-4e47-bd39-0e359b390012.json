@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 66
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "716",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:06:42.649Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:06:42.649Z",
-            "modified": "2022-04-01T08:06:45.167Z"
+            "modified": "2022-04-20T13:20:35.730Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "716\n\u201cInneres de Katharinenklosters / Interior of St. Catharine\u2019s Cloister.\n/ Inte\u0301rieur du couvent St. Cathe\u0301rine.\u201d\nschilderij Johann Friedrich Perlberg \u2013 prentbriefkaart Serie 168. Palestina. No. 24 \u2013 [Sinai\u0308]"
         }
     ],
+    "id": "31cc8368-9423-4e47-bd39-0e359b390012.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1915.03466796875,12751.4716796875,1197.901123046875,1591.5322265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1915.03466796875,12751.4716796875,1197.901123046875,1591.5322265625"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "31cc8368-9423-4e47-bd39-0e359b390012.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
