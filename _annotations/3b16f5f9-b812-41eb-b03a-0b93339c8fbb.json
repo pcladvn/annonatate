@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 69
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "634",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:16:31.158Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:16:31.158Z",
-            "modified": "2022-03-21T15:16:33.507Z"
+            "modified": "2022-04-20T12:32:07.541Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "634\nLa collation sur l'herbe\nschilderij Antoine Watteau, 18e eeuw"
         }
     ],
+    "id": "3b16f5f9-b812-41eb-b03a-0b93339c8fbb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=828.9735717773438,17628.400390625,1331.5347290039062,1513.994140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=828.9735717773438,17628.400390625,1331.5347290039062,1513.994140625"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3b16f5f9-b812-41eb-b03a-0b93339c8fbb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
