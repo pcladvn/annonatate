@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "728",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:08:23.737Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:08:23.737Z",
-            "modified": "2022-04-01T08:08:26.099Z"
+            "modified": "2022-04-20T13:23:28.773Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "728\nCupido scherpt zijn pijl\nAnton Raphael Mengs, na 1753"
         }
     ],
+    "id": "693c00cc-f70c-445a-a85a-c9ea35c609ec.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2001.22314453125,16035.9775390625,381.671142578125,457.0107421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2001.22314453125,16035.9775390625,381.671142578125,457.0107421875"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "693c00cc-f70c-445a-a85a-c9ea35c609ec.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
