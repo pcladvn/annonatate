@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 51
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "701",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:04:33.764Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:04:33.764Z",
-            "modified": "2022-04-01T08:04:36.584Z"
+            "modified": "2022-04-20T13:13:46.834Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "701\nJan Breydel en Pieter De Coninck\nbeeldhouwwerk Paul de Vigne, 1887 \u2013 prentbriefkaart"
         }
     ],
+    "id": "47cb78b9-3515-489d-a07b-ac04cb63b7ef.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2030.800048828125,10857.6171875,257.9208984375,975.7880859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2030.800048828125,10857.6171875,257.9208984375,975.7880859375"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "47cb78b9-3515-489d-a07b-ac04cb63b7ef.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
