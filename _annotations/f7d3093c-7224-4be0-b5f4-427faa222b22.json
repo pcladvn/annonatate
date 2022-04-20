@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 11
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "770",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:39:16.831Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:39:16.831Z",
-            "modified": "2022-04-01T08:39:19.562Z"
+            "modified": "2022-04-20T14:08:07.588Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "770\nMephisto und der Schu\u0308ler\nsilhouettekening Paul Konewka (Gestalten aus \u201cFaust\u201d), 1864, Fr. A. Ackermann\u2019s Kunstverlag, M\u00fcnchen - \nfragment prentbriefkaart"
         }
     ],
+    "id": "f7d3093c-7224-4be0-b5f4-427faa222b22.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=112.64337158203125,4374.1025390625,451.27716064453125,1097.12353515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=112.64337158203125,4374.1025390625,451.27716064453125,1097.12353515625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f7d3093c-7224-4be0-b5f4-427faa222b22.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
