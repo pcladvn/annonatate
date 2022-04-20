@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 76
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "641",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:21:04.116Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:21:04.116Z",
-            "modified": "2022-03-21T15:21:06.590Z"
+            "modified": "2022-04-20T12:36:47.303Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "641\nDe jager (Der Ja\u0308ger mit Jagdhund)\nschilderij Wilhelm Leibl, 1876"
         }
     ],
+    "id": "75df4985-747e-4239-8e40-0d1ea4a66036.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=749.7882080078125,19024.640625,1383.8900146484375,1964.2109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=749.7882080078125,19024.640625,1383.8900146484375,1964.2109375"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "75df4985-747e-4239-8e40-0d1ea4a66036.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
