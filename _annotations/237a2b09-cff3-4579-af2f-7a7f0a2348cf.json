@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 74
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "639",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:17:16.915Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:17:16.915Z",
-            "modified": "2022-03-21T15:17:19.777Z"
+            "modified": "2022-04-20T12:36:28.284Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "639\nArtemis Braschi\nbeeldhouwwerk, 1ste eeuw n.C."
         }
     ],
+    "id": "237a2b09-cff3-4579-af2f-7a7f0a2348cf.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=161.41741943359375,18893.62890625,596.2415771484375,1497.12890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=161.41741943359375,18893.62890625,596.2415771484375,1497.12890625"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "237a2b09-cff3-4579-af2f-7a7f0a2348cf.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
