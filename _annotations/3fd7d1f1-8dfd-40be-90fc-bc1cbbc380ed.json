@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "663",
-            "purpose": "identifying",
+            "created": "2022-04-01T07:58:44.198Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T07:58:44.198Z",
-            "modified": "2022-04-01T07:58:46.883Z"
+            "modified": "2022-04-20T12:54:48.561Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "663\nAllerheiligenbild (Landauer Altar)\nschilderij Albrecht Du\u0308rer, 1511"
         }
     ],
+    "id": "3fd7d1f1-8dfd-40be-90fc-bc1cbbc380ed.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2576.755615234375,1118.93359375,2325.548095703125,2496.241943359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2576.755615234375,1118.93359375,2325.548095703125,2496.241943359375"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3fd7d1f1-8dfd-40be-90fc-bc1cbbc380ed.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
