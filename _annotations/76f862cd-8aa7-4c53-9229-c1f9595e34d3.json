@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 86
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "737",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:09:44.183Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:09:44.183Z",
-            "modified": "2022-04-01T08:09:46.970Z"
+            "modified": "2022-04-20T13:25:26.888Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "737\nMadonna met kersen\n(Madonna delle Ciliegie) schilderij Titiaan, c. 1516-18"
         }
     ],
+    "id": "76f862cd-8aa7-4c53-9229-c1f9595e34d3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=27.8768367767334,17328.83984375,1136.240716934204,925.37109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=27.8768367767334,17328.83984375,1136.240716934204,925.37109375"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "76f862cd-8aa7-4c53-9229-c1f9595e34d3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
