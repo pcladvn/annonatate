@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 57
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "707",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:05:31.184Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:05:31.184Z",
-            "modified": "2022-04-01T08:05:33.650Z"
+            "modified": "2022-04-20T13:16:56.364Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "707\nRobert Hugh Benson"
         }
     ],
+    "id": "2737f06e-b562-48ce-8650-69f6ceff1444.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1117.9617919921875,11903.6591796875,502.5927734375,797.8251953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1117.9617919921875,11903.6591796875,502.5927734375,797.8251953125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2737f06e-b562-48ce-8650-69f6ceff1444.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
