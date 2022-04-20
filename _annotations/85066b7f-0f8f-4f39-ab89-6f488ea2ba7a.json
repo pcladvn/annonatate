@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 68
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "633",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:16:23.743Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:16:23.743Z",
-            "modified": "2022-03-21T15:16:26.307Z"
+            "modified": "2022-04-20T12:31:56.083Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "633\nSibille van Cumae\nschilderij Zampieri Domenico (Il Domenichino), c. 1617"
         }
     ],
+    "id": "85066b7f-0f8f-4f39-ab89-6f488ea2ba7a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=225.30409240722656,18126.919921875,604.8961029052734,790.763671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=225.30409240722656,18126.919921875,604.8961029052734,790.763671875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "85066b7f-0f8f-4f39-ab89-6f488ea2ba7a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
