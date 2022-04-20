@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 63
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "713",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:06:19.270Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:06:19.270Z",
-            "modified": "2022-04-01T08:06:21.917Z"
+            "modified": "2022-04-20T13:18:49.139Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "713\nMaria met kind en twee engelen\nschilderij Fra Filippo Lippi, c. 1460-1465"
         }
     ],
+    "id": "16e54a6f-bd6a-4898-944f-ba3620d2e4f6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3904.78076171875,12444.2080078125,1006.0810546875,1293.900390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3904.78076171875,12444.2080078125,1006.0810546875,1293.900390625"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "16e54a6f-bd6a-4898-944f-ba3620d2e4f6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
