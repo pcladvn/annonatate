@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 19
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "778",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:40:15.814Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:40:15.814Z",
-            "modified": "2022-04-01T08:40:19.222Z"
+            "modified": "2022-04-20T14:12:40.152Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "778\nOrpheus en Euridice (?)"
         }
     ],
+    "id": "9ce25591-f3a1-468b-9488-8d5bc8a5ad09.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1905.629150390625,5191.76123046875,1178.332763671875,1259.6484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1905.629150390625,5191.76123046875,1178.332763671875,1259.6484375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9ce25591-f3a1-468b-9488-8d5bc8a5ad09.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
