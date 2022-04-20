@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 82
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "647",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:21:56.827Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:21:56.827Z",
-            "modified": "2022-03-21T15:21:59.802Z"
+            "modified": "2022-04-20T12:37:56.729Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "647\nMadame de Pompadour, minnares van Lodewijk\nXV (Madame de Pompadour, mai\u0302tresse de Louis XV)\nschilderij Franc\u0327ois Boucher, 1758"
         }
     ],
+    "id": "8713fb0c-9b83-4071-932f-a3e22954ac5f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1751.9061279296875,22030.583984375,1248.7376708984375,1012.33984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1751.9061279296875,22030.583984375,1248.7376708984375,1012.33984375"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8713fb0c-9b83-4071-932f-a3e22954ac5f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
