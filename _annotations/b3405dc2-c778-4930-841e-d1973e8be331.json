@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 61
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "626",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:15:30.663Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:15:30.663Z",
-            "modified": "2022-03-21T15:15:33.204Z"
+            "modified": "2022-04-20T08:40:31.502Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "626\n[Christus aan het kruis]"
         }
     ],
+    "id": "b3405dc2-c778-4930-841e-d1973e8be331.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3101.36328125,15145.9169921875,196.2939453125,584.41796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3101.36328125,15145.9169921875,196.2939453125,584.41796875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b3405dc2-c778-4930-841e-d1973e8be331.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
