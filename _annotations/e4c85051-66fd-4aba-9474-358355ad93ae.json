@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 34
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "599",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:06:56.861Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:06:56.861Z",
-            "modified": "2022-03-21T15:06:59.238Z"
+            "modified": "2022-04-20T08:27:33.349Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "599\nAanbidding van het kind\nschilderij Joe English, 1910"
         }
     ],
+    "id": "e4c85051-66fd-4aba-9474-358355ad93ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1321.906494140625,9198.57421875,1431.82861328125,1119.3798828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1321.906494140625,9198.57421875,1431.82861328125,1119.3798828125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e4c85051-66fd-4aba-9474-358355ad93ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
