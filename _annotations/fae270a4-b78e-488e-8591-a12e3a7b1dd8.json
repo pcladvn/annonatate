@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 39
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "604",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:09:38.028Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:09:38.028Z",
-            "modified": "2022-03-21T15:09:40.526Z"
+            "modified": "2022-04-20T08:28:45.361Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "604\nKarel V (Ritratto di Carlo V seduto)\nschilderij Titiaan, 1548"
         }
     ],
+    "id": "fae270a4-b78e-488e-8591-a12e3a7b1dd8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4303.71142578125,9981.6259765625,331.24560546875,678.5341796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4303.71142578125,9981.6259765625,331.24560546875,678.5341796875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fae270a4-b78e-488e-8591-a12e3a7b1dd8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
