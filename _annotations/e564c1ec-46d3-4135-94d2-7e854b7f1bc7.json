@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 90
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "741",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:10:24.807Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:10:24.807Z",
-            "modified": "2022-04-01T08:10:27.631Z"
+            "modified": "2022-04-20T13:26:09.751Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "741\nTorgauer Altar, linkerpaneel\nschilderij Lucas Cranach de Oude, 1509"
         }
     ],
+    "id": "e564c1ec-46d3-4135-94d2-7e854b7f1bc7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4144.51123046875,17140.88671875,751.060546875,2016.958984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4144.51123046875,17140.88671875,751.060546875,2016.958984375"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e564c1ec-46d3-4135-94d2-7e854b7f1bc7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
