@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "574",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:02:27.416Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:02:27.416Z",
-            "modified": "2022-03-21T15:02:30.049Z"
+            "modified": "2022-04-20T07:14:13.597Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "574\nVenus\nbeeldhouwwerk Praxiteles, 4de eeuw v.C. \u2013 \u201cVenere \u2013 Prassitele / Mus. Vatic. Roma\u201d _ prentbriefkaart"
         }
     ],
+    "id": "2074144e-01f1-4232-86ec-690ee2833358.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3677.820556640625,2541.12646484375,965.030029296875,1504.233642578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3677.820556640625,2541.12646484375,965.030029296875,1504.233642578125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2074144e-01f1-4232-86ec-690ee2833358.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
