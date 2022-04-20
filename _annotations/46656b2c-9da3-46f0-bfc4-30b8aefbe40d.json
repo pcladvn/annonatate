@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 13
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "772",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:39:31.184Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:39:31.184Z",
-            "modified": "2022-04-01T08:39:33.863Z"
+            "modified": "2022-04-20T14:09:05.066Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "772\nHet avondmaal in Emma\u00fcs\nPieter Paul Rubens,  c. 1635-1640"
         }
     ],
+    "id": "46656b2c-9da3-46f0-bfc4-30b8aefbe40d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1897.5826416015625,4529.21923828125,662.2938232421875,704.830078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1897.5826416015625,4529.21923828125,662.2938232421875,704.830078125"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "46656b2c-9da3-46f0-bfc4-30b8aefbe40d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
