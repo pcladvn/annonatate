@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 97
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "748",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:11:28.093Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:11:28.093Z",
-            "modified": "2022-04-01T08:11:30.808Z"
+            "modified": "2022-04-20T13:31:47.200Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "748\nMediterende Sint-Franciscus\n(San Francisco en e\u0301xtasis) schilderij Francisco de Zurbara\u0301n, 1639"
         }
     ],
+    "id": "b5fa83db-ffe9-4428-8ccc-85044b160ee0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4179.638671875,20846.345703125,658.21142578125,882.294921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4179.638671875,20846.345703125,658.21142578125,882.294921875"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b5fa83db-ffe9-4428-8ccc-85044b160ee0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
