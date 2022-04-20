@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "765",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:38:37.238Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:38:37.238Z",
-            "modified": "2022-04-01T08:38:40.360Z"
+            "modified": "2022-04-20T14:05:32.090Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "765\nPortret van Do\u00f1a Isabel de Porcel\nschilderij Francisco de Goya, 1805"
         }
     ],
+    "id": "0200a986-512b-4e60-a974-630339370b05.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1297.2503662109375,1970.5758056640625,625.53515625,1092.3736572265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1297.2503662109375,1970.5758056640625,625.53515625,1092.3736572265625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0200a986-512b-4e60-a974-630339370b05.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
