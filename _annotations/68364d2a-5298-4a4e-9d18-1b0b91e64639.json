@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "695",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:03:28.431Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:03:28.431Z",
-            "modified": "2022-04-01T08:03:31.698Z"
+            "modified": "2022-04-20T13:12:26.619Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "695\nPrometheus\nschilderij Gustave Moreau, 1868"
         }
     ],
+    "id": "68364d2a-5298-4a4e-9d18-1b0b91e64639.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3730.040771484375,8797.3310546875,1201.446044921875,2072.85546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3730.040771484375,8797.3310546875,1201.446044921875,2072.85546875"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "68364d2a-5298-4a4e-9d18-1b0b91e64639.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
