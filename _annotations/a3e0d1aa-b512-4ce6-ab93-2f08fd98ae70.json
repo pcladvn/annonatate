@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 48
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "613",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:13:53.280Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:13:53.280Z",
-            "modified": "2022-03-21T15:13:55.626Z"
+            "modified": "2022-04-20T08:35:19.693Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "613\nIeper (Ypres)\nschilderij Alfred Bastien, 1915 \u2013 prentbriefkaart"
         }
     ],
+    "id": "a3e0d1aa-b512-4ce6-ab93-2f08fd98ae70.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3423.454345703125,13426.939453125,455.145751953125,289.8232421875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3423.454345703125,13426.939453125,455.145751953125,289.8232421875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a3e0d1aa-b512-4ce6-ab93-2f08fd98ae70.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
