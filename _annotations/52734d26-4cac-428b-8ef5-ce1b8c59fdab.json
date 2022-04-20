@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 81
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "646",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:21:49.003Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:21:49.003Z",
-            "modified": "2022-03-21T15:21:51.626Z"
+            "modified": "2022-04-20T12:37:41.044Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "646\nMaria\nlinkerbovenpaneel hoofdaltaar van polyptiek De Aanbidding van het Lam Gods, Jan en Hubert Van Eyck, 1432"
         }
     ],
+    "id": "52734d26-4cac-428b-8ef5-ce1b8c59fdab.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3454.903564453125,19438.693359375,1165.872314453125,2561.361328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3454.903564453125,19438.693359375,1165.872314453125,2561.361328125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "52734d26-4cac-428b-8ef5-ce1b8c59fdab.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
