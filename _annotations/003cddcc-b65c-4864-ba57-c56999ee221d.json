@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 104
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "755",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:12:24.808Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:12:24.808Z",
-            "modified": "2022-04-01T08:12:27.186Z"
+            "modified": "2022-04-20T13:36:52.269Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "755\nUit de stal\nschilderij Jan Stobbaerts"
         }
     ],
+    "id": "003cddcc-b65c-4864-ba57-c56999ee221d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1139.8758544921875,22976.0625,1419.5848388671875,1082.923828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1139.8758544921875,22976.0625,1419.5848388671875,1082.923828125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "003cddcc-b65c-4864-ba57-c56999ee221d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
