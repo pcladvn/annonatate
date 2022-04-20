@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 99
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "750",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:11:42.803Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:11:42.803Z",
-            "modified": "2022-04-01T08:11:45.971Z"
+            "modified": "2022-04-20T13:32:09.782Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "750\nLuipaarden, Zoo Keulen\nprentbriefkaart"
         }
     ],
+    "id": "631b5007-dc56-4bd2-b311-567ec8a20c22.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=0.9138494729995728,22542.72265625,1580.9687188863754,691.08203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=0.9138494729995728,22542.72265625,1580.9687188863754,691.08203125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "631b5007-dc56-4bd2-b311-567ec8a20c22.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
