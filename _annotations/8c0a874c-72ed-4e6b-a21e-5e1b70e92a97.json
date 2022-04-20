@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 12
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "577",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:03:28.816Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:03:28.816Z",
-            "modified": "2022-03-21T15:03:32.258Z"
+            "modified": "2022-04-20T07:17:25.363Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "577\nSint-Petrus van Verona\nfresco Fra Angelico"
         }
     ],
+    "id": "8c0a874c-72ed-4e6b-a21e-5e1b70e92a97.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2624.144287109375,3694.8349609375,618.39501953125,693.89453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2624.144287109375,3694.8349609375,618.39501953125,693.89453125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8c0a874c-72ed-4e6b-a21e-5e1b70e92a97.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
