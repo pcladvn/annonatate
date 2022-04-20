@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 20
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "585",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:04:44.639Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:04:44.639Z",
-            "modified": "2022-03-21T15:04:46.827Z"
+            "modified": "2022-04-20T07:20:40.555Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "585\nMona Lisa (La Gioconda)\nschilderij Leonardo da Vinci, 1503-06"
         }
     ],
+    "id": "a01e868c-f952-465b-ac01-b44b6a4bd2bb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4044.5302734375,5867.80615234375,572.62353515625,779.67333984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4044.5302734375,5867.80615234375,572.62353515625,779.67333984375"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a01e868c-f952-465b-ac01-b44b6a4bd2bb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
