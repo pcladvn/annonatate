@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 45
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "610",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:10:19.203Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:10:19.203Z",
-            "modified": "2022-03-21T15:10:21.517Z"
+            "modified": "2022-04-20T08:33:54.176Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "610\nChristiaan de Wet\ntekening Th\u00e9r\u00e8se Schwartze, 1902"
         }
     ],
+    "id": "aeef60c1-7109-446e-a9b0-8aab99cfcb0a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1131.353759765625,11907.2568359375,1240.225341796875,1116.7392578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1131.353759765625,11907.2568359375,1240.225341796875,1116.7392578125"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "aeef60c1-7109-446e-a9b0-8aab99cfcb0a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
