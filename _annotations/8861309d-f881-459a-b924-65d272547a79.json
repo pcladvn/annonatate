@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "768",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:39:01.910Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:39:01.910Z",
-            "modified": "2022-04-01T08:39:04.571Z"
+            "modified": "2022-04-20T14:06:53.246Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "768\nKreuzigung Christi\nschilderij Max Klinger, 1890"
         }
     ],
+    "id": "8861309d-f881-459a-b924-65d272547a79.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=145.0774688720703,3058.873046875,3001.3422088623047,1501.04345703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=145.0774688720703,3058.873046875,3001.3422088623047,1501.04345703125"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8861309d-f881-459a-b924-65d272547a79.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
