@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 52
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "617",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:14:26.352Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:14:26.352Z",
-            "modified": "2022-03-21T15:14:28.705Z"
+            "modified": "2022-04-20T08:37:36.952Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "617\nDe vier apostelen \u2013 Markus en Paulus (Die vier Apostel)\nschilderij Albrecht Du\u0308rer, 1526 \u2013 diptychon"
         }
     ],
+    "id": "630f8499-2880-4db4-8fc5-bd23cf1b8605.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=178.7946014404297,11953.3544921875,921.4333038330078,2683.546875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=178.7946014404297,11953.3544921875,921.4333038330078,2683.546875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "630f8499-2880-4db4-8fc5-bd23cf1b8605.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
