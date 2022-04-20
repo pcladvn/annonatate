@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 29
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "679",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:01:06.015Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:01:06.015Z",
-            "modified": "2022-04-01T08:01:09.938Z"
+            "modified": "2022-04-20T13:07:05.975Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "679\nDe Staalmeesters\nschilderij Rembrandt van Rijn, 1662"
         }
     ],
+    "id": "f7ab369f-1a21-4b13-a006-13c7dd2d88d2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4364.26171875,6289.5234375,579.6142578125,621.115234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4364.26171875,6289.5234375,579.6142578125,621.115234375"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f7ab369f-1a21-4b13-a006-13c7dd2d88d2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
