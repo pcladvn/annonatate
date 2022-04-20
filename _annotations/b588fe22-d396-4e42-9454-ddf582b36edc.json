@@ -3,33 +3,33 @@ canvas: "http://e8b978b6-43ac-4843-b839-0edeaca92990"
 order: 98
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "749",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:11:35.011Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:11:35.011Z",
-            "modified": "2022-04-01T08:11:37.884Z"
+            "modified": "2022-04-20T13:31:58.043Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "749\nIn het klooster\nschilderij Josef Kafka, 1940"
         }
     ],
+    "id": "b588fe22-d396-4e42-9454-ddf582b36edc.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=40.624267578125,21025.919921875,1533.165771484375,1528.689453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=40.624267578125,21025.919921875,1533.165771484375,1528.689453125"
+        },
+        "source": "http://e8b978b6-43ac-4843-b839-0edeaca92990"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b588fe22-d396-4e42-9454-ddf582b36edc.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
