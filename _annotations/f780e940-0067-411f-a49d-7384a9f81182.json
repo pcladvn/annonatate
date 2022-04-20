@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 21
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "586",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:04:52.791Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:04:52.791Z",
-            "modified": "2022-03-21T15:04:55.590Z"
+            "modified": "2022-04-20T07:21:00.463Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "586\nEen Poolse edelman \nschilderij Rembrandt van Rijn, 1637"
         }
     ],
+    "id": "f780e940-0067-411f-a49d-7384a9f81182.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=162.29197692871094,6608.494140625,548.4885406494141,727.03076171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=162.29197692871094,6608.494140625,548.4885406494141,727.03076171875"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f780e940-0067-411f-a49d-7384a9f81182.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
