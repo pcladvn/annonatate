@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 70
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "635",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:16:41.759Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:16:41.759Z",
-            "modified": "2022-03-21T15:16:44.173Z"
+            "modified": "2022-04-20T12:32:19.614Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "635\nChristus aan het kruis (Christ en croix)\nschilderij Euge\u0300ne Carrie\u0300re, c. 1897 \u2013 \u201cMuse\u0301e du Luxembourg / Euge\u0300ne Carie\u0300rre (1894/- 1906) / Christ. \u2013 ND Phot.\u201d \u2013 prentbriefkaart"
         }
     ],
+    "id": "7936838e-8b3a-42d4-94d2-adb6926cd810.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2135.532958984375,17628.53515625,890.154296875,1556.416015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2135.532958984375,17628.53515625,890.154296875,1556.416015625"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7936838e-8b3a-42d4-94d2-adb6926cd810.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
