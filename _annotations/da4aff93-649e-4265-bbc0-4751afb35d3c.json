@@ -3,33 +3,33 @@ canvas: "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
 order: 78
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "643",
-            "purpose": "identifying",
+            "created": "2022-03-21T15:21:25.507Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-03-21T15:21:25.507Z",
-            "modified": "2022-03-21T15:21:29.792Z"
+            "modified": "2022-04-20T12:37:03.162Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "643\nDe wind (Le Vent, Spiritus Sancte, Deus)\nlithografie Charles Marie Dulac"
         }
     ],
+    "id": "da4aff93-649e-4265-bbc0-4751afb35d3c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=269.5307312011719,21017.630859375,1711.6178283691406,1204.068359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=269.5307312011719,21017.630859375,1711.6178283691406,1204.068359375"
+        },
+        "source": "http://39a78aa2-4c35-4906-95d8-0ccdc9abd550"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "da4aff93-649e-4265-bbc0-4751afb35d3c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
