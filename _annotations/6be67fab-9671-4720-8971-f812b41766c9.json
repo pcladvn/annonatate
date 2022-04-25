@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 32
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "791",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:41:51.896Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:41:51.896Z",
-            "modified": "2022-04-01T08:41:55.326Z"
+            "modified": "2022-04-25T06:45:56.307Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "791\nHerman Van den Reeck\nfoto, 1920"
         }
     ],
+    "id": "6be67fab-9671-4720-8971-f812b41766c9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3145.3564453125,8926.787109375,605.1884765625,818.6162109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3145.3564453125,8926.787109375,605.1884765625,818.6162109375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6be67fab-9671-4720-8971-f812b41766c9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
