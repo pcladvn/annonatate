@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 41
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "800",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:45:14.429Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:45:14.429Z",
-            "modified": "2022-04-01T08:45:17.682Z"
+            "modified": "2022-04-25T06:48:16.570Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "800\nFrederik van Eeden\nprentbriefkaart uit 1902/1903, naar gekleurd krijtportret H.J. Haverman, 1899"
         }
     ],
+    "id": "312f4b88-ed9a-45d6-bb43-f3cb1e55c821.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=180.84361267089844,10859.7890625,559.6389923095703,644.8896484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=180.84361267089844,10859.7890625,559.6389923095703,644.8896484375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "312f4b88-ed9a-45d6-bb43-f3cb1e55c821.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
