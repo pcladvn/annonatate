@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 80
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "839",
-            "purpose": "identifying",
+            "created": "2022-04-01T09:00:42.494Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T09:00:42.494Z",
-            "modified": "2022-04-01T09:00:44.802Z"
+            "modified": "2022-04-25T07:19:38.579Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "839\nSacra Conversazione\nschilderij Sebastiano Luciana (Sebastiano del Piombo), 1509 (detail)"
         }
     ],
+    "id": "8ae501b7-cb4c-4528-b8f0-0f4dc2423dd4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1152.4130859375,20576.986328125,1406.703857421875,2078.263671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1152.4130859375,20576.986328125,1406.703857421875,2078.263671875"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8ae501b7-cb4c-4528-b8f0-0f4dc2423dd4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
