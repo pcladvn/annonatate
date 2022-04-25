@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 65
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "824",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:57:51.701Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:57:51.701Z",
-            "modified": "2022-04-01T08:57:54.083Z"
+            "modified": "2022-04-25T07:14:41.693Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "824\nAuf der Weltausstellung in Paris \nschilderij Adolf Friedrich Erdmann Von Menzel, 1867"
         }
     ],
+    "id": "2177cb22-566a-4695-aa1d-866dcfbb8e69.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3463.7421875,16509.845703125,1131.04638671875,1808.830078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3463.7421875,16509.845703125,1131.04638671875,1808.830078125"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2177cb22-566a-4695-aa1d-866dcfbb8e69.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
