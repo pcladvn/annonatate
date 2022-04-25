@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 88
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "847",
-            "purpose": "identifying",
+            "created": "2022-04-01T09:01:46.099Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T09:01:46.099Z",
-            "modified": "2022-04-01T09:01:49.407Z"
+            "modified": "2022-04-25T07:28:07.607Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "847\nEmiel Claus\nfoto"
         }
     ],
+    "id": "9e2fae01-2344-4a60-98ba-29bd86b90c45.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3716.302490234375,23793.91796875,886.071533203125,1211.333984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3716.302490234375,23793.91796875,886.071533203125,1211.333984375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9e2fae01-2344-4a60-98ba-29bd86b90c45.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
