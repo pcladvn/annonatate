@@ -11,10 +11,10 @@ order: 2
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-25T07:40:51.790Z",
+            "modified": "2022-04-25T07:41:04.946Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "850\nDe schepping van zon en maan\nfresco Michelangelo, 1508-12, Sixtijnse Kapel, plafond, Rome"
+            "value": "850\nDe schepping van zon en maan\nfresco Michelangelo, 1508-12, \nSixtijnse Kapel, plafond, Rome"
         }
     ],
     "id": "75d98471-4aec-4192-a568-3f8dcc97059e.json",
