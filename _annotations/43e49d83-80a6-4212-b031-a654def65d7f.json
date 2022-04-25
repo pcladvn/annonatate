@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 29
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "788",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:41:29.849Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:41:29.849Z",
-            "modified": "2022-04-01T08:41:31.940Z"
+            "modified": "2022-04-25T06:44:59.937Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "788\nErlko\u0308nig\nschilderij Moritz von Schwind, 1917"
         }
     ],
+    "id": "43e49d83-80a6-4212-b031-a654def65d7f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3155.8486328125,8015.72607421875,1439.18798828125,908.58056640625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3155.8486328125,8015.72607421875,1439.18798828125,908.58056640625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "43e49d83-80a6-4212-b031-a654def65d7f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
