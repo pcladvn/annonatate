@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 66
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "825",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:57:57.785Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:57:57.785Z",
-            "modified": "2022-04-01T08:58:00.239Z"
+            "modified": "2022-04-25T07:15:26.489Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "825\nDe haven van Antwerpen\nillustratie Eugene Boudin, voor 1905"
         }
     ],
+    "id": "64cdbc09-4caf-40fb-9995-8277c991cb96.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2290.761962890625,18252.35546875,656.232421875,409.484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2290.761962890625,18252.35546875,656.232421875,409.484375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "64cdbc09-4caf-40fb-9995-8277c991cb96.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
