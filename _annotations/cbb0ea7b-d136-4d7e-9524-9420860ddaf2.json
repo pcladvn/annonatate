@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 54
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "813",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:56:18.977Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:56:18.977Z",
-            "modified": "2022-04-01T08:56:22.281Z"
+            "modified": "2022-04-25T07:01:08.848Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "813\nL\u2019Alsacienne\n775 prentbriefkaart Emile Dupuis, N\u00b0 41. \u201cLes Femmes He\u0301roi\u0308ques\u201d"
         }
     ],
+    "id": "cbb0ea7b-d136-4d7e-9524-9420860ddaf2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2524.251953125,14274.693359375,858.174560546875,961.1123046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2524.251953125,14274.693359375,858.174560546875,961.1123046875"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cbb0ea7b-d136-4d7e-9524-9420860ddaf2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
