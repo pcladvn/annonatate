@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 44
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "803",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:45:41.740Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:45:41.740Z",
-            "modified": "2022-04-01T08:45:45.291Z"
+            "modified": "2022-04-25T06:49:48.759Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "803\nEnrica von Handel-Mazzetti\nportretfoto, c. 1910"
         }
     ],
+    "id": "523cffc5-b216-438c-82f9-afe1aa9365d6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1692.7691650390625,11872.583984375,298.53564453125,452.3408203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1692.7691650390625,11872.583984375,298.53564453125,452.3408203125"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "523cffc5-b216-438c-82f9-afe1aa9365d6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
