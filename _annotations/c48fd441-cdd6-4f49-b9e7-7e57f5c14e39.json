@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 27
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "786",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:41:15.404Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:41:15.404Z",
-            "modified": "2022-04-01T08:41:17.960Z"
+            "modified": "2022-04-25T06:44:08.218Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "786\nDe burgers van Calais\nbeeldhouwwerk Auguste Rodin, 1888"
         }
     ],
+    "id": "c48fd441-cdd6-4f49-b9e7-7e57f5c14e39.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1050.113037109375,7842.95654296875,625.2515869140625,537.52001953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1050.113037109375,7842.95654296875,625.2515869140625,537.52001953125"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c48fd441-cdd6-4f49-b9e7-7e57f5c14e39.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
