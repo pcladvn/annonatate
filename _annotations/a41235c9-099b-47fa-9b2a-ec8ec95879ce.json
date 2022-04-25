@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 42
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "801",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:45:24.924Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:45:24.924Z",
-            "modified": "2022-04-01T08:45:28.442Z"
+            "modified": "2022-04-25T06:48:27.857Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "801\nMaxence Edgard - le Livre de la paix"
         }
     ],
+    "id": "a41235c9-099b-47fa-9b2a-ec8ec95879ce.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1487.955810546875,10358,939.632080078125,1538.65234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1487.955810546875,10358,939.632080078125,1538.65234375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a41235c9-099b-47fa-9b2a-ec8ec95879ce.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
