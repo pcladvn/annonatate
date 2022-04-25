@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 72
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "831",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:58:48.608Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:58:48.608Z",
-            "modified": "2022-04-01T08:58:52.566Z"
+            "modified": "2022-04-25T07:17:01.513Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "831\nMaksim Gorki\ntekening/ets (?) naar foto"
         }
     ],
+    "id": "7df1dd14-841b-4f8d-9eb7-83dda3082168.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3252.19384765625,19477.904296875,730.77783203125,906.87890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3252.19384765625,19477.904296875,730.77783203125,906.87890625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7df1dd14-841b-4f8d-9eb7-83dda3082168.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
