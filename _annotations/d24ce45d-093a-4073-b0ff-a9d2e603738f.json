@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 67
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "826",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:58:04.263Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:58:04.263Z",
-            "modified": "2022-04-01T08:58:07.165Z"
+            "modified": "2022-04-25T07:15:41.326Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "826\nHermes Psychopompus\nbeeldhouwwerk"
         }
     ],
+    "id": "d24ce45d-093a-4073-b0ff-a9d2e603738f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=216.04258728027344,18164.234375,807.4851837158203,1605.966796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=216.04258728027344,18164.234375,807.4851837158203,1605.966796875"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d24ce45d-093a-4073-b0ff-a9d2e603738f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
