@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 85
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "844",
-            "purpose": "identifying",
+            "created": "2022-04-01T09:01:24.139Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T09:01:24.139Z",
-            "modified": "2022-04-01T09:01:26.601Z"
+            "modified": "2022-04-25T07:20:40.996Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "844\nHet Strand van Scheveningen\nschilderij Adriaen van de Velde, 1658"
         }
     ],
+    "id": "437a4514-8092-42ab-b518-33a6d989a478.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2443.29052734375,22460.291015625,2171.1357421875,1334.44140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2443.29052734375,22460.291015625,2171.1357421875,1334.44140625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "437a4514-8092-42ab-b518-33a6d989a478.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
