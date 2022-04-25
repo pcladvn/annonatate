@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 30
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "789",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:41:36.225Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:41:36.225Z",
-            "modified": "2022-04-01T08:41:38.431Z"
+            "modified": "2022-04-25T06:45:11.097Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "789\nDorpsstraat\nschilderij Victor Gilsoul"
         }
     ],
+    "id": "c690b57c-b9fe-4e73-9fcb-589752b52a8a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=198.74440002441406,8293.630859375,1655.982650756836,1513.2021484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=198.74440002441406,8293.630859375,1655.982650756836,1513.2021484375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c690b57c-b9fe-4e73-9fcb-589752b52a8a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
