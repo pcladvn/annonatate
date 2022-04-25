@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 62
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "821",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:57:29.181Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:57:29.181Z",
-            "modified": "2022-04-01T08:57:31.797Z"
+            "modified": "2022-04-25T07:13:49.832Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "821\nPapyruskolommen, Karnak"
         }
     ],
+    "id": "b7bbb3d7-45c9-4677-b9b4-b4957e09e0a0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1028.2777099609375,16604.595703125,1302.3975830078125,1955.865234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1028.2777099609375,16604.595703125,1302.3975830078125,1955.865234375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b7bbb3d7-45c9-4677-b9b4-b4957e09e0a0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
