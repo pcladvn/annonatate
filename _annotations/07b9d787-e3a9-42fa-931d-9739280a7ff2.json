@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 26
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "785",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:41:08.201Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:41:08.201Z",
-            "modified": "2022-04-01T08:41:10.798Z"
+            "modified": "2022-04-25T06:43:42.333Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "785\n\u201cGoethe auf dem Kikelhahn bei Ilmenau\u201d\nschilderij Woldemar Friedrich, c. 1831 \u2013 prentbriefkaart, A 1382 / F. A. Ackermann\u2019s Kunstverlag, prentbriefkaart (?) Mu\u0308nchen. Serie 108: Goethe\u2019s Leben (12 Karten)"
         }
     ],
+    "id": "07b9d787-e3a9-42fa-931d-9739280a7ff2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=105.19947814941406,7222.41943359375,952.3929290771484,1191.83837890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=105.19947814941406,7222.41943359375,952.3929290771484,1191.83837890625"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07b9d787-e3a9-42fa-931d-9739280a7ff2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
