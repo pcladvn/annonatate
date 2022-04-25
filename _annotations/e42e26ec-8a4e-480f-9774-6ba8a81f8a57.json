@@ -3,33 +3,33 @@ canvas: "http://2b964ed7-938f-4028-b523-caf520ecab5b"
 order: 71
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "830",
-            "purpose": "identifying",
+            "created": "2022-04-01T08:58:40.984Z",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "created": "2022-04-01T08:58:40.984Z",
-            "modified": "2022-04-01T08:58:44.170Z"
+            "modified": "2022-04-25T07:16:48.415Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "830\nBach im Winter\nschilderij Carl Felber, 1918"
         }
     ],
+    "id": "e42e26ec-8a4e-480f-9774-6ba8a81f8a57.json",
+    "motivation": "commenting",
     "target": {
-        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2822.18505859375,19785.23046875,442.167236328125,584.2734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pcladvn.github.io/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2822.18505859375,19785.23046875,442.167236328125,584.2734375"
+        },
+        "source": "http://2b964ed7-938f-4028-b523-caf520ecab5b"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e42e26ec-8a4e-480f-9774-6ba8a81f8a57.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
