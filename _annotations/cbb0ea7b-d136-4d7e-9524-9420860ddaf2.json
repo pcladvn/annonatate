@@ -11,10 +11,10 @@ order: 54
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-25T07:01:08.848Z",
+            "modified": "2022-05-11T11:59:57.627Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "813\nL\u2019Alsacienne\n775 prentbriefkaart Emile Dupuis, N\u00b0 41. \u201cLes Femmes He\u0301roi\u0308ques\u201d"
+            "value": "813\nL\u2019Alsacienne\nprentbriefkaart Emile Dupuis, N\u00b0 41. \u201cLes Femmes He\u0301roi\u0308ques\u201d"
         }
     ],
     "id": "cbb0ea7b-d136-4d7e-9524-9420860ddaf2.json",
