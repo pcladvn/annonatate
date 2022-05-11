@@ -11,10 +11,10 @@ order: 65
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-17T12:44:54.710Z",
+            "modified": "2022-05-11T09:00:56.268Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "456\nAveMaria\nschilderij Giovanni Segantini, 1886"
+            "value": "456\nAve Maria\nschilderij Giovanni Segantini, 1886"
         }
     ],
     "id": "3fe1828e-a27f-403c-b94e-54e136be84b1.json",
