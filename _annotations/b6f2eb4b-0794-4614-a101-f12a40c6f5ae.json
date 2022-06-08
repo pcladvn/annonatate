@@ -11,10 +11,10 @@ order: 1
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-14T13:41:58.574Z",
+            "modified": "2022-06-08T15:41:51.129Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "209\nErwin von Steinbach\nschilderij Matthaus Schiestl"
+            "value": "209\nErwin von Steinbach\nschilderij Matth\u00e4us Schiestl"
         }
     ],
     "id": "b6f2eb4b-0794-4614-a101-f12a40c6f5ae.json",
