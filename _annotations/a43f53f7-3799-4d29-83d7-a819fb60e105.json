@@ -11,10 +11,10 @@ order: 32
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-14T12:45:50.441Z",
+            "modified": "2022-06-08T13:43:27.028Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "139\nChristus aan het kruis \nschilderij Diego Velazquez, c. 180 1632"
+            "value": "139\nChristus aan het kruis \nschilderij Diego Vel\u00e1zquez, c. 180 1632"
         }
     ],
     "id": "a43f53f7-3799-4d29-83d7-a819fb60e105.json",
