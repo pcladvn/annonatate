@@ -11,10 +11,10 @@ order: 1
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-06-08T06:24:21.001Z",
+            "modified": "2022-06-08T06:53:52.283Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "1 TEST\nPrentbriefkaart"
+            "value": "1\nPrentbriefkaart"
         }
     ],
     "id": "3452898b-611e-42a7-a34f-e4a93510f36d.json",
