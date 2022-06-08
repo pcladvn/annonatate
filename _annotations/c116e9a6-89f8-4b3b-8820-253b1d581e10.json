@@ -8,13 +8,13 @@ order: 92
         {
             "type": "TextualBody",
             "value": "262\nAmazon en Centaur\nschilderij Franz von Stuck, 1912",
-            "purpose": "commenting",
+            "purpose": "identifying",
             "creator": {
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
             "created": "2022-06-08T16:16:53.644Z",
-            "modified": "2022-06-08T16:16:54.373Z"
+            "modified": "2022-06-08T16:20:38.214Z"
         }
     ],
     "target": {
