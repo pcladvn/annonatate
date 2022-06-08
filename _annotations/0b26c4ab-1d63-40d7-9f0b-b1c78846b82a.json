@@ -11,10 +11,10 @@ order: 56
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-04-14T11:30:56.007Z",
+            "modified": "2022-06-08T13:29:07.911Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "56\nDe geboorte van Christus 100\nschilderij Matthias Gru\u0308newald, c. 1510-15, \nIsenheimer Altar"
+            "value": "56\nDe geboorte van Christus\nschilderij Matthias Gru\u0308newald, c. 1510-15, \nIsenheimer Altar"
         }
     ],
     "id": "0b26c4ab-1d63-40d7-9f0b-b1c78846b82a.json",
