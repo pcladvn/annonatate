@@ -1,0 +1,35 @@
+---
+canvas: "http://b0673134-beb7-496e-bdbc-b1f5f86c2721"
+order: 92
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\u201cPatriots\u201d\nonderkant van prentbriefkaart \u201cBe patriotic and reduce your dress bill to a minimum. [\u2013 Patriots]\u201d \u2013 zie afbeelding 257",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pcladvn",
+                "name": "pcladvn"
+            },
+            "created": "2022-06-08T16:20:20.218Z",
+            "modified": "2022-06-08T16:20:27.927Z"
+        }
+    ],
+    "target": {
+        "source": "http://b0673134-beb7-496e-bdbc-b1f5f86c2721",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3189.841796875,12841.80078125,277.906494140625,112.3935546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pcladvn.github.io/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "318f9ec9-7cfd-4675-a47a-17ca0cca26ac.json",
+    "motivation": "commenting"
+}
