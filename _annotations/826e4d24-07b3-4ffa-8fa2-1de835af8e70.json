@@ -11,10 +11,10 @@ order: 5
                 "id": "pcladvn",
                 "name": "pcladvn"
             },
-            "modified": "2022-06-08T06:43:56.939Z",
+            "modified": "2022-06-08T06:54:08.185Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "5 \n\nTEST\nPontius Pilatus\nprentbriefkaart Oberammergau Passionsspiele \u2013 serie 2, 1922"
+            "value": "5 \nPontius Pilatus\nprentbriefkaart Oberammergau Passionsspiele \u2013 serie 2, 1922"
         }
     ],
     "id": "826e4d24-07b3-4ffa-8fa2-1de835af8e70.json",
